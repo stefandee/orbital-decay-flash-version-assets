@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\laser_red_med.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="0" y="0" width="9" height="2" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-4" y="-1" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="idle">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

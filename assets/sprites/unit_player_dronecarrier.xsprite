@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\unit_player_dronecarrier.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="196" y="103" width="113" height="43" info="No info" />
+        <module id="4097" imageid="4096" x="196" y="146" width="113" height="63" info="No info" />
+        <module id="4098" imageid="4096" x="196" y="209" width="105" height="71" info="No info" />
+        <module id="4099" imageid="4096" x="301" y="209" width="47" height="68" info="No info" />
+        <module id="4100" imageid="4096" x="348" y="254" width="43" height="24" info="No info" />
+        <module id="4101" imageid="4096" x="391" y="254" width="65" height="23" info="No info" />
+        <module id="4102" imageid="4096" x="309" y="113" width="39" height="96" info="No info" />
+        <module id="4103" imageid="4096" x="347" y="98" width="40" height="15" info="No info" />
+        <module id="4104" imageid="4096" x="348" y="113" width="39" height="107" info="No info" />
+        <module id="4105" imageid="4096" x="387" y="116" width="38" height="96" info="No info" />
+        <module id="4106" imageid="4096" x="425" y="103" width="42" height="19" info="No info" />
+        <module id="4107" imageid="4096" x="425" y="122" width="42" height="83" info="No info" />
+        <module id="4108" imageid="4096" x="467" y="122" width="24" height="76" info="No info" />
+        <module id="4109" imageid="4096" x="491" y="137" width="9" height="10" info="No info" />
+        <module id="4110" imageid="4096" x="491" y="151" width="16" height="18" info="No info" />
+        <module id="4111" imageid="4096" x="161" y="109" width="35" height="125" info="No info" />
+        <module id="4112" imageid="4096" x="184" y="234" width="12" height="11" info="No info" />
+        <module id="4113" imageid="4096" x="132" y="109" width="29" height="15" info="No info" />
+        <module id="4114" imageid="4096" x="132" y="124" width="29" height="110" info="No info" />
+        <module id="4115" imageid="4096" x="132" y="234" width="26" height="12" info="No info" />
+        <module id="4116" imageid="4096" x="52" y="102" width="80" height="97" info="No info" />
+        <module id="4117" imageid="4096" x="52" y="199" width="80" height="47" info="No info" />
+        <module id="4118" imageid="4096" x="58" y="246" width="77" height="28" info="No info" />
+        <module id="4119" imageid="4096" x="71" y="274" width="5" height="15" info="No info" />
+        <module id="4120" imageid="4096" x="36" y="117" width="16" height="124" info="No info" />
+        <module id="4121" imageid="4096" x="16" y="125" width="20" height="107" info="No info" />
+        <module id="4122" imageid="4096" x="13" y="134" width="3" height="88" info="No info" />
+        <module id="4123" imageid="4096" x="146" y="97" width="55" height="12" info="No info" />
+        <module id="4124" imageid="4096" x="146" y="56" width="55" height="41" info="No info" />
+        <module id="4125" imageid="4096" x="118" y="56" width="28" height="40" info="No info" />
+        <module id="4126" imageid="4096" x="201" y="63" width="15" height="29" info="No info" />
+        <module id="4127" imageid="4096" x="216" y="73" width="22" height="12" info="No info" />
+        <module id="4128" imageid="4096" x="146" y="37" width="55" height="19" info="No info" />
+        <module id="4129" imageid="4096" x="161" y="13" width="6" height="11" info="No info" />
+        <module id="4130" imageid="4096" x="151" y="24" width="45" height="13" info="No info" />
+        <module id="4131" imageid="4096" x="34" y="305" width="25" height="87" info="No info" />
+        <module id="4132" imageid="4096" x="78" y="304" width="25" height="87" info="No info" />
+        <module id="4133" imageid="4096" x="117" y="303" width="25" height="87" info="No info" />
+        <module id="4134" imageid="4096" x="11" y="408" width="498" height="283" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-64" y="-74" flags="0" />
+                <fmodule moduleid="4097" x="-64" y="-37" flags="0" />
+                <fmodule moduleid="4098" x="-64" y="26" flags="0" />
+                <fmodule moduleid="4099" x="41" y="26" flags="0" />
+                <fmodule moduleid="4100" x="88" y="71" flags="0" />
+                <fmodule moduleid="4101" x="131" y="71" flags="0" />
+                <fmodule moduleid="4102" x="49" y="-70" flags="0" />
+                <fmodule moduleid="4104" x="88" y="-70" flags="0" />
+                <fmodule moduleid="4103" x="88" y="-85" flags="0" />
+                <fmodule moduleid="4107" x="165" y="-61" flags="0" />
+                <fmodule moduleid="4105" x="127" y="-67" flags="0" />
+                <fmodule moduleid="4106" x="165" y="-80" flags="0" />
+                <fmodule moduleid="4108" x="207" y="-62" flags="0" />
+                <fmodule moduleid="4110" x="231" y="-33" flags="0" />
+                <fmodule moduleid="4109" x="231" y="-47" flags="0" />
+                <fmodule moduleid="4111" x="-99" y="-73" flags="0" />
+                <fmodule moduleid="4112" x="-76" y="52" flags="0" />
+                <fmodule moduleid="4114" x="-128" y="-58" flags="0" />
+                <fmodule moduleid="4113" x="-128" y="-73" flags="0" />
+                <fmodule moduleid="4115" x="-128" y="52" flags="0" />
+                <fmodule moduleid="4116" x="-208" y="-80" flags="0" />
+                <fmodule moduleid="4117" x="-208" y="17" flags="0" />
+                <fmodule moduleid="4118" x="-202" y="64" flags="0" />
+                <fmodule moduleid="4119" x="-192" y="92" flags="0" />
+                <fmodule moduleid="4120" x="-224" y="-66" flags="0" />
+                <fmodule moduleid="4121" x="-244" y="-58" flags="0" />
+                <fmodule moduleid="4122" x="-247" y="-49" flags="0" />
+                <fmodule moduleid="4123" x="-114" y="-85" flags="0" />
+                <fmodule moduleid="4124" x="-111" y="-126" flags="0" />
+                <fmodule moduleid="4125" x="-138" y="-125" flags="0" />
+                <fmodule moduleid="4126" x="-56" y="-118" flags="0" />
+                <fmodule moduleid="4127" x="-43" y="-110" flags="0" />
+                <fmodule moduleid="4128" x="-111" y="-145" flags="0" />
+                <fmodule moduleid="4130" x="-106" y="-158" flags="0" />
+                <fmodule moduleid="4129" x="-91" y="-173" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor" />
+                <flogic id="4097" info="flame">
+                    <flogicitem id="4096" type="0" x="-270" y="-49" />
+                </flogic>
+                <flogic id="4098" info="turret">
+                    <flogicitem id="4096" type="0" x="218" y="-38" />
+                    <flogicitem id="4097" type="0" x="220" y="0" />
+                    <flogicitem id="4098" type="0" x="187" y="-28" />
+                    <flogicitem id="4099" type="0" x="159" y="-29" />
+                    <flogicitem id="4100" type="0" x="129" y="-27" />
+                    <flogicitem id="4101" type="0" x="101" y="-28" />
+                    <flogicitem id="4102" type="0" x="42" y="2" />
+                    <flogicitem id="4103" type="0" x="0" y="0" />
+                    <flogicitem id="4104" type="0" x="-37" y="0" />
+                    <flogicitem id="4105" type="0" x="80" y="79" />
+                    <flogicitem id="4106" type="0" x="51" y="83" />
+                    <flogicitem id="4107" type="0" x="-88" y="-106" />
+                    <flogicitem id="4108" type="0" x="-192" y="-66" />
+                    <flogicitem id="4109" type="0" x="-142" y="81" />
+                    <flogicitem id="4110" type="0" x="-185" y="77" />
+                    <flogicitem id="4111" type="0" x="-31" y="74" />
+                    <flogicitem id="4112" type="0" x="-191" y="-35" />
+                    <flogicitem id="4113" type="0" x="-155" y="-35" />
+                    <flogicitem id="4114" type="0" x="-190" y="-15" />
+                    <flogicitem id="4115" type="0" x="-154" y="-15" />
+                    <flogicitem id="4118" type="0" x="2" y="-33" />
+                </flogic>
+                <flogic id="4099" info="main weapon" />
+                <flogic id="4100" info="signal lights">
+                    <flogicitem id="4096" type="0" x="-192" y="107" />
+                    <flogicitem id="4097" type="0" x="-21" y="-99" />
+                    <flogicitem id="4098" type="0" x="-91" y="-173" />
+                </flogic>
+            </flogics>
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4131" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4102" info="">
+            <fmodules>
+                <fmodule moduleid="4133" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4101" info="">
+            <fmodules>
+                <fmodule moduleid="4132" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4103" info="">
+            <fmodules>
+                <fmodule moduleid="4134" x="-246" y="-177" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4097" info="idle">
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="flame">
+            <aframe frameid="4100" time="120" x="0" y="0" flags="0" />
+            <aframe frameid="4102" time="120" x="0" y="0" flags="0" />
+            <aframe frameid="4101" time="120" x="0" y="0" flags="0" />
+            <aframe frameid="4102" time="120" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4099" info="">
+            <aframe frameid="4103" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

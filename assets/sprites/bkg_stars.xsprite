@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\ui\bkg_stars.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="0" y="31" width="31" height="21" info="No info" />
+        <module id="4097" imageid="4096" x="13" y="57" width="17" height="17" info="No info" />
+        <module id="4098" imageid="4096" x="36" y="56" width="9" height="9" info="No info" />
+        <module id="4099" imageid="4096" x="46" y="29" width="26" height="21" info="No info" />
+        <module id="4100" imageid="4096" x="52" y="64" width="9" height="9" info="No info" />
+        <module id="4101" imageid="4096" x="72" y="26" width="7" height="7" info="No info" />
+        <module id="4102" imageid="4096" x="76" y="38" width="22" height="19" info="No info" />
+        <module id="4103" imageid="4096" x="102" y="56" width="3" height="3" info="No info" />
+        <module id="4104" imageid="4096" x="109" y="47" width="5" height="5" info="No info" />
+        <module id="4105" imageid="4096" x="87" y="20" width="13" height="13" info="No info" />
+        <module id="4106" imageid="4096" x="100" y="34" width="5" height="5" info="No info" />
+        <module id="4107" imageid="4096" x="107" y="32" width="9" height="9" info="No info" />
+        <module id="4108" imageid="4096" x="99" y="0" width="24" height="24" info="No info" />
+        <module id="4109" imageid="4096" x="65" y="54" width="5" height="5" info="No info" />
+        <module id="4110" imageid="4096" x="101" y="43" width="3" height="3" info="No info" />
+        <module id="4111" imageid="4096" x="76" y="57" width="3" height="3" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-23" y="-9" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4097" x="-9" y="-9" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4098" x="-4" y="-5" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4099" x="-11" y="-10" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4100" x="-4" y="-5" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4101" info="">
+            <fmodules>
+                <fmodule moduleid="4101" x="-4" y="-4" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4102" info="">
+            <fmodules>
+                <fmodule moduleid="4102" x="-13" y="-10" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4103" info="">
+            <fmodules>
+                <fmodule moduleid="4103" x="-1" y="-1" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4104" info="">
+            <fmodules>
+                <fmodule moduleid="4104" x="-3" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4105" info="">
+            <fmodules>
+                <fmodule moduleid="4105" x="-7" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4106" info="">
+            <fmodules>
+                <fmodule moduleid="4106" x="-2" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4107" info="">
+            <fmodules>
+                <fmodule moduleid="4107" x="-4" y="-5" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4108" info="">
+            <fmodules>
+                <fmodule moduleid="4108" x="-11" y="-12" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4109" info="">
+            <fmodules>
+                <fmodule moduleid="4109" x="-2" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4110" info="">
+            <fmodules>
+                <fmodule moduleid="4110" x="-2" y="-1" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4111" info="">
+            <fmodules>
+                <fmodule moduleid="4111" x="-2" y="-1" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4097" info="">
+            <aframe frameid="4097" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="">
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4099" info="">
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4100" info="">
+            <aframe frameid="4100" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4101" info="">
+            <aframe frameid="4101" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4102" info="">
+            <aframe frameid="4102" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4103" info="">
+            <aframe frameid="4103" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4104" info="">
+            <aframe frameid="4104" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4105" info="">
+            <aframe frameid="4105" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4106" info="">
+            <aframe frameid="4106" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4107" info="">
+            <aframe frameid="4107" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4108" info="">
+            <aframe frameid="4108" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4109" info="">
+            <aframe frameid="4109" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4110" info="">
+            <aframe frameid="4110" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4111" info="">
+            <aframe frameid="4111" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

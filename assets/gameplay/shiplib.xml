@@ -1,0 +1,608 @@
+<shiplib>
+	<ship class="player_drone" body="0" maxSpeed="20" maxAccel="5" hp="1" maxhp="1" heal="2" rate="5000" range="25" reward="0">
+		<sys class="flame" flogic="0" anim="1"/>
+	</ship>
+
+	<ship class="player_fighter" body="0" destroyed="1" explosion="fx_explode000" hp="20" maxhp="20" maxSpeed="95" maxAccel="100" turn="8" reward="0">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="main_weapon" type="laser" proj="laser_red_small" flogic="0" dmg="5" rate="700" range="450" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="player_ship" body="0" schematics="2" maxSpeed="200" maxAccel="100" hp="800" maxhp="800" reward="0" minDamageRange="15" maxDamageRange="75" ru="100">
+		<sys class="hull">
+			<upgrade name="HP" info="Ship Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0"    cost="0"/>
+				<upgradeLevel index="1" mod="100"  cost="100"/>
+				<upgradeLevel index="2" mod="200"  cost="200"/>
+				<upgradeLevel index="3" mod="300"  cost="300"/>
+				<upgradeLevel index="4" mod="500"  cost="500"/>
+				<upgradeLevel index="5" mod="1000" cost="750"/>
+			</upgrade>
+		</sys>
+
+		<sys class="flame"   flogic="0" anim="1"/>
+		<sys class="signal"  flogic="0" msg="congrats on finding this easter egg" />
+		<sys class="signal"  flogic="1" msg="hailing frequency open" />
+		<sys class="signal"  flogic="2" msg="hold your position" />
+
+		<sys class="playerturret" type="plasma" buildCost="500" sprite="player_main_turret" proj="plasma_all_player" flogic="15" dmg="10" rate="300" range="1500" hp="120" maxhp="120">
+			<upgrade name="Damage" info="Increase the Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0.0" cost="0"/>
+				<upgradeLevel index="1" mod="2" cost="15"/>
+				<upgradeLevel index="2" mod="5" cost="60"/>
+				<upgradeLevel index="3" mod="7" cost="100"/>
+				<upgradeLevel index="4" mod="10" cost="200"/>
+				<upgradeLevel index="5" mod="15" cost="350"/>
+			</upgrade>
+
+			<upgrade name="Fire Rate" info="Increase the Fire Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0"    cost="0"/>
+				<upgradeLevel index="1" mod="-25"  cost="10"/>
+				<upgradeLevel index="2" mod="-50"  cost="50"/>
+				<upgradeLevel index="3" mod="-75"  cost="100"/>
+				<upgradeLevel index="4" mod="-125"  cost="300"/>
+				<upgradeLevel index="5" mod="-250" cost="400"/>
+			</upgrade>
+
+			<upgrade name="Speed" info="Increase the Projectile Speed" currentLevel="0">
+				<upgradeLevel index="0" mod="0"    cost="0"/>
+				<upgradeLevel index="1" mod="33"   cost="50"/>
+				<upgradeLevel index="2" mod="66"   cost="100"/>
+				<upgradeLevel index="4" mod="100"  cost="150"/>
+			</upgrade>
+
+			<upgrade name="HP" info="Increase the Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="100" cost="50"/>
+				<upgradeLevel index="2" mod="200" cost="100"/>
+			</upgrade>
+		</sys>
+
+		<sys class="bay" flogic="16" buildCost="10" fighter="player_fighter" start="1" max="1" totalMax="100000" rate="15000" hp="1000" maxhp="1000">
+			<upgrade name="Max Fighters" info="Max simultaneous fighters" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="100"/>
+				<upgradeLevel index="2" mod="2" cost="200"/>
+			</upgrade>
+
+			<upgrade name="Build Rate" info="Fighter Build Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="-1000" cost="50"/>
+				<upgradeLevel index="2" mod="-3000" cost="100"/>
+				<upgradeLevel index="3" mod="-6000" cost="150"/>
+			</upgrade>
+
+			<upgrade name="Fighter Damage" info="Fighter Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0.0" cost="0"/>
+				<upgradeLevel index="1" mod="1.5" cost="10"/>
+				<upgradeLevel index="2" mod="3" cost="50"/>
+				<upgradeLevel index="3" mod="5" cost="100"/>
+				<upgradeLevel index="4" mod="7" cost="200"/>
+				<upgradeLevel index="5" mod="10" cost="300"/>
+			</upgrade>
+
+			<upgrade name="Fighter HP" info="Fighter Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="10" cost="100"/>
+				<upgradeLevel index="2" mod="20" cost="250"/>
+			</upgrade>
+
+			<upgrade name="Fighter Fire Rate" info="Fighter Fire Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="-20" cost="10"/>
+				<upgradeLevel index="2" mod="-50" cost="40"/>
+				<upgradeLevel index="3" mod="-80" cost="80"/>
+				<upgradeLevel index="4" mod="-100" cost="100"/>
+				<upgradeLevel index="5" mod="-150" cost="150"/>
+			</upgrade>
+		</sys>
+
+		<sys class="dronebay" flogic="20" fighter="player_drone" start="1" max="1" totalMax="100000" rate="12000" hp="1000" maxhp="1000">
+			<upgrade name="Max Drones" info="Max simultanoues drones" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="50"/>
+				<upgradeLevel index="2" mod="2" cost="70"/>
+				<upgradeLevel index="3" mod="3" cost="90"/>
+				<upgradeLevel index="4" mod="4" cost="100"/>
+				<upgradeLevel index="5" mod="5" cost="120"/>
+			</upgrade>
+
+			<upgrade name="Drone Repair" info="Drone Repair Power" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="75"/>
+				<upgradeLevel index="2" mod="2" cost="125"/>
+				<upgradeLevel index="3" mod="3" cost="250"/>
+				<upgradeLevel index="4" mod="4" cost="400"/>
+				<upgradeLevel index="5" mod="5" cost="500"/>
+			</upgrade>
+
+			<upgrade name="Drone Repair Rate" info="Drone Repair Power" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="-400" cost="100"/>
+				<upgradeLevel index="2" mod="-800" cost="200"/>
+				<upgradeLevel index="3" mod="-1200" cost="300"/>
+			</upgrade>
+		</sys>
+
+		<sys class="turret" type="laser" template="yes" buildCost="50" sprite="player_laser_turret" proj="laser_red_large" flogic="0" dmg="4" rate="2000" range="850" hp="25" maxhp="25">
+			<upgrade name="Damage" info="Increase the Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0.5" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="25"/>
+				<upgradeLevel index="2" mod="1.5" cost="25"/>
+				<upgradeLevel index="3" mod="2" cost="25"/>
+				<upgradeLevel index="4" mod="3" cost="25"/>
+				<upgradeLevel index="5" mod="6" cost="25"/>
+			</upgrade>
+
+			<upgrade name="Range" info="Increase how far the weapon can fire." currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="50" cost="20"/>
+				<upgradeLevel index="2" mod="80" cost="20"/>
+				<upgradeLevel index="3" mod="100" cost="20"/>
+				<upgradeLevel index="4" mod="150" cost="20"/>
+				<upgradeLevel index="5" mod="250" cost="40"/>
+			</upgrade>
+
+			<upgrade name="Fire Rate" info="Increase the Fire Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0"     cost="0"/>
+				<upgradeLevel index="1" mod="-150"  cost="10"/>
+				<upgradeLevel index="2" mod="-300"  cost="25"/>
+				<upgradeLevel index="3" mod="-500"  cost="50"/>
+				<upgradeLevel index="4" mod="-800" cost="75"/>
+				<upgradeLevel index="5" mod="-1200" cost="100"/>
+			</upgrade>
+
+			<upgrade name="HP" info="Increase the Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="25" cost="25"/>
+				<upgradeLevel index="2" mod="50" cost="50"/>
+			</upgrade>
+		</sys>
+
+		<sys class="turret" type="rocket" template="yes" buildCost="100" sprite="player_rocket_turret" proj="rocket_player_med" flogic="0" dmg="25" rate="8000" range="550" hp="50" maxhp="50">
+			<upgrade name="Damage" info="Increase the Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0"  cost="0"/>
+				<upgradeLevel index="1" mod="5"  cost="50"/>
+				<upgradeLevel index="2" mod="10" cost="60"/>
+				<upgradeLevel index="3" mod="15" cost="70"/>
+				<upgradeLevel index="4" mod="20" cost="80"/>
+				<upgradeLevel index="5" mod="25" cost="100"/>
+			</upgrade>
+
+			<upgrade name="Range" info="Increase how far the weapon can fire." currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="100" cost="30"/>
+				<upgradeLevel index="2" mod="200" cost="40"/>
+				<upgradeLevel index="3" mod="300" cost="50"/>
+				<upgradeLevel index="4" mod="400" cost="70"/>
+				<upgradeLevel index="5" mod="600" cost="100"/>
+			</upgrade>
+
+			<upgrade name="Fire Rate" info="Increase the Fire Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0"     cost="0"/>
+				<upgradeLevel index="1" mod="-150"  cost="10"/>
+				<upgradeLevel index="2" mod="-300"  cost="25"/>
+				<upgradeLevel index="3" mod="-500"  cost="50"/>
+				<upgradeLevel index="4" mod="-800" cost="75"/>
+				<upgradeLevel index="5" mod="-1000" cost="100"/>
+			</upgrade>
+
+			<upgrade name="HP" info="Increase the Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="40" cost="50"/>
+				<upgradeLevel index="2" mod="100" cost="125"/>
+			</upgrade>
+		</sys>
+
+		<sys class="turret" type="flak" template="yes" buildCost="75" sprite="player_flak_turret" proj="flak_generic" flogic="0" dmg="6" rate="2200" range="250" hp="50" maxhp="50" count="3" spread="15">
+			<upgrade name="Damage" info="Increase the Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0.0" cost="0"/>
+				<upgradeLevel index="1" mod="0.4" cost="15"/>
+				<upgradeLevel index="2" mod="0.9" cost="20"/>
+				<upgradeLevel index="3" mod="1.5" cost="25"/>
+				<upgradeLevel index="4" mod="2.3" cost="30"/>
+				<upgradeLevel index="5" mod="4" cost="60"/>
+			</upgrade>
+
+			<upgrade name="Range" info="Increase how far the weapon can fire." currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="10" cost="10"/>
+				<upgradeLevel index="2" mod="20" cost="30"/>
+				<upgradeLevel index="3" mod="30" cost="40"/>
+				<upgradeLevel index="4" mod="40" cost="50"/>
+				<upgradeLevel index="5" mod="50" cost="60"/>
+			</upgrade>
+
+			<upgrade name="Shards" info="Increase the number of shards" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="100"/>
+				<upgradeLevel index="2" mod="2" cost="150"/>
+				<upgradeLevel index="3" mod="3" cost="200"/>
+			</upgrade>
+
+			<upgrade name="HP" info="Increase the Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="75" cost="50"/>
+				<upgradeLevel index="2" mod="150" cost="100"/>
+			</upgrade>
+		</sys>
+
+		<sys class="bay" template="yes" buildCost="150" flogic="0" fighter="player_fighter" start="1" max="1" totalMax="100000" rate="15000" hp="1000" maxhp="1000">
+			<upgrade name="Max Fighters" info="Max simultaneous fighters" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="1" cost="100"/>
+				<upgradeLevel index="2" mod="2" cost="200"/>
+			</upgrade>
+
+			<upgrade name="Build Rate" info="Fighter Build Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="-1000" cost="50"/>
+				<upgradeLevel index="2" mod="-3000" cost="100"/>
+				<upgradeLevel index="3" mod="-6000" cost="150"/>
+			</upgrade>
+
+			<upgrade name="Fighter Damage" info="Fighter Damage" currentLevel="0">
+				<upgradeLevel index="0" mod="0.0" cost="0"/>
+				<upgradeLevel index="1" mod="1.5" cost="10"/>
+				<upgradeLevel index="2" mod="3" cost="50"/>
+				<upgradeLevel index="3" mod="5" cost="100"/>
+				<upgradeLevel index="4" mod="7" cost="200"/>
+				<upgradeLevel index="5" mod="10" cost="300"/>
+			</upgrade>
+
+			<upgrade name="Fighter HP" info="Fighter Hitpoints" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="10" cost="100"/>
+				<upgradeLevel index="2" mod="20" cost="250"/>
+			</upgrade>
+
+			<upgrade name="Fighter Fire Rate" info="Fighter Fire Rate" currentLevel="0">
+				<upgradeLevel index="0" mod="0" cost="0"/>
+				<upgradeLevel index="1" mod="-20" cost="10"/>
+				<upgradeLevel index="2" mod="-50" cost="40"/>
+				<upgradeLevel index="3" mod="-80" cost="80"/>
+				<upgradeLevel index="4" mod="-100" cost="100"/>
+				<upgradeLevel index="5" mod="-150" cost="150"/>
+			</upgrade>
+		</sys>
+
+		<sys class="hardpoint" type="turret" flogic="0"/>
+		<sys class="hardpoint" type="turret" flogic="1"/>
+		<sys class="hardpoint" type="turret" flogic="2"/>
+		<sys class="hardpoint" type="turret" flogic="3"/>
+		<sys class="hardpoint" type="turret" flogic="4"/>
+		<sys class="hardpoint" type="turret" flogic="5"/>
+		<sys class="hardpoint" type="turret" flogic="6"/>
+		<sys class="hardpoint" type="turret" flogic="7"/>
+		<sys class="hardpoint" type="turret" flogic="8"/>
+		<sys class="hardpoint" type="turret" flogic="9"/>
+		<sys class="hardpoint" type="turret" flogic="10"/>
+		<sys class="hardpoint" type="turret" flogic="11"/>
+		<sys class="hardpoint" type="turret" flogic="12"/>
+		<sys class="hardpoint" type="turret" flogic="13"/>
+		<sys class="hardpoint" type="turret" flogic="14"/>
+
+		<sys class="hardpoint" type="bay" flogic="16"/>
+		<sys class="hardpoint" type="bay" flogic="17"/>
+		<sys class="hardpoint" type="bay" flogic="18"/>
+		<sys class="hardpoint" type="bay" flogic="19"/>
+	</ship>
+
+	<ship class="raider_fighter" body="0" destroyed="1" explosion="fx_explode000" hp="20" maxhp="20" maxSpeed="100" maxAccel="100" turn="5" reward="3">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="main_weapon" type="laser" proj="laser_yellow_small" flogic="0" dmg="2" rate="1000" range="400" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="raider_gunship" body="0" destroyed="1" explosion="fx_explode000" hp="50" maxhp="50" maxSpeed="80" maxAccel="80" turn="12" reward="5">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="fixedturret" type="laser" proj="laser_yellow_med" flogic="1" dmg="2" rate="1800" range="500" hp="100" maxhp="100"/>
+		<sys class="fixedturret" type="laser" proj="laser_yellow_small" flogic="0" dmg="1" rate="800" range="250" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="raider_bomber" body="0" destroyed="1" explosion="fx_explode000" hp="45" maxhp="45" maxSpeed="70" maxAccel="70" turn="12" reward="6">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="fixedturret" type="laser" proj="laser_yellow_small" flogic="0" dmg="1" rate="453" range="250" hp="100" maxhp="100"/>
+		<sys class="fixedturret" type="starbomb" proj="starbomb_yellow_small" flogic="1" dmg="12" rate="7000" range="550" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="raider_corvette" body="0" destroyed="1" explosion="fx_explode004" hp="100" maxhp="100" maxSpeed="80" maxAccel="50" turn="10" reward="12">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="turret" type="laser" sprite="raider_laser_turret_small" proj="laser_yellow_med" flogic="1" dmg="2" rate="800" range="250" hp="100" maxhp="100"/>
+		<sys class="turret" type="laser" sprite="raider_laser_turret" proj="laser_yellow_large" flogic="0" dmg="5" rate="2000" range="650" hp="100" maxhp="100"/>
+		<sys class="signal" flogic="0" msg="clearing enemy target" />
+		<sys class="signal" flogic="1" msg="clearing enemy target" />
+		<sys class="signal" flogic="2" msg="clearing enemy target" />
+		<sys class="signal" flogic="3" msg="clearing enemy target" />
+		<sys class="signal" flogic="4" msg="clearing enemy target" />
+	</ship>
+
+	<ship class="raider_frigate" body="0" maxSpeed="40" maxAccel="40" hp="450" maxhp="450" reward="55">
+		<sys class="reactor" flogic="0" anim="1" hp="200"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+		<sys class="turret" type="laser" sprite="raider_laser_turret" proj="laser_yellow_large" flogic="0" dmg="5" rate="1200" range="700" hp="100" maxhp="100"/>
+		<sys class="turret" type="laser" sprite="raider_laser_turret" proj="laser_yellow_large" flogic="1" dmg="5" rate="1200" range="700" hp="100" maxhp="100"/>
+		<sys class="turret" type="flak" sprite="raider_flak_turret" proj="flak_generic" flogic="2" dmg="1" rate="2500" range="120" hp="100" maxhp="100" count="5" spread="30" />
+		<sys class="turret" type="starbomb" sprite="raider_bomb_turret" proj="starbomb_yellow_med" flogic="3" dmg="15" rate="8000" range="500" hp="100" maxhp="100"/>
+		<sys class="signal" flogic="0" msg="show them what we are made of" />
+	</ship>
+
+	<ship class="raider_carrier" body="0" maxSpeed="30" maxAccel="20" hp="750" maxhp="750" reward="85">
+		<sys class="reactor" flogic="0" anim="1" hp="300"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+		<sys class="turret" type="laser" sprite="raider_laser_turret" proj="laser_yellow_large" flogic="0" dmg="10" rate="1500" range="1000" hp="100" maxhp="100"/>
+		<sys class="turret" type="flak" sprite="raider_flak_turret"  proj="flak_generic" flogic="1" dmg="5" rate="4000" range="230" hp="100" maxhp="100" count="4" spread="15"/>
+		<sys class="bay"    flogic="2" fighter="raider_fighter" start="1" max="2" totalMax="4" rate="10000" hp="100" maxhp="100"/>
+		<sys class="bay"    flogic="3" fighter="raider_fighter" start="1" max="2" totalMax="4" rate="10040" hp="100" maxhp="100"/>
+		<sys class="bay"    flogic="4" fighter="raider_fighter" start="1" max="2" totalMax="4" rate="10080" hp="100" maxhp="100"/>
+		<sys class="bay"    flogic="5" fighter="raider_fighter" start="1" max="2" totalMax="4" rate="10120" hp="100" maxhp="100"/>
+		<sys class="signal" flogic="1" msg="target acquired" />
+	</ship>
+
+	<ship class="aru_fighter" body="0" destroyed="1" explosion="fx_explode005" hp="55" maxhp="55" maxSpeed="85" maxAccel="90" turn="5" reward="5">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="main_weapon" type="laser" proj="laser_green_small" flogic="0" dmg="3" rate="1300" range="480" hp="100" maxhp="100"/>
+		<sys class="main_weapon" type="laser" proj="laser_green_small" flogic="1" dmg="3" rate="1350" range="480" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="aru_interceptor" body="0" destroyed="1" explosion="fx_explode006" hp="40" maxhp="40" maxSpeed="125" maxAccel="110" turn="5" reward="4">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="main_weapon" type="laser" proj="laser_green_small" flogic="0" dmg="5" rate="800" range="550" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="aru_gunship" body="0" destroyed="1" explosion="fx_explode007" hp="80" maxhp="80" maxSpeed="75" maxAccel="80" turn="12" reward="8">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="1" dmg="2" rate="1210" range="600" hp="100" maxhp="100"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="2" dmg="2" rate="1310" range="600" hp="100" maxhp="100"/>
+		<sys class="fixedturret" type="starbomb" proj="starbomb_green_small" flogic="0" dmg="10" rate="5500" range="700" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="aru_corvette" body="0" destroyed="1" explosion="fx_explode002" hp="150" maxhp="150" maxSpeed="60" maxAccel="55" turn="10" reward="12">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="0" dmg="6" rate="2000" range="700" hp="100" maxhp="100"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_small" flogic="1" dmg="1" rate="1000" range="250" hp="100" maxhp="100"/>
+		<sys class="signal" flogic="0" msg="crash and burn" />
+		<sys class="main_weapon" type="laser" proj="laser_green_med" flogic="0" dmg="3" rate="2200" range="450" hp="100" maxhp="100"/>
+		<sys class="main_weapon" type="laser" proj="laser_green_med" flogic="1" dmg="3" rate="2200" range="450" hp="100" maxhp="100"/>
+	</ship>
+
+	<ship class="aru_barge" body="0" maxSpeed="50" maxAccel="20" hp="1000" maxhp="1000" reward="30">
+		<sys class="reactor" flogic="0" anim="1" hp="200" maxhp="200"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="0" dmg="6" rate="1500" range="600" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="flak" proj="flak_generic" flogic="1" dmg="3" rate="2500" range="150" hp="50" maxhp="50" count="5" spread="35" />
+		<sys class="fixedturret" type="starbomb" proj="starbomb_green_med" flogic="3" dmg="15" rate="8000" range="1000" hp="50" maxhp="50"/>
+		<sys class="bay"    flogic="2" fighter="aru_fighter" start="1" max="2" totalMax="8" rate="12000" hp="200" maxhp="200"/>
+		<sys class="signal" flogic="0" msg="forward to die" />
+		<sys class="signal" flogic="1" msg="forward to die" />
+	</ship>
+
+	<ship class="aru_frigate" body="0" maxSpeed="40" maxAccel="25" hp="1400" maxhp="1400" reward="45">
+		<sys class="reactor" flogic="0" anim="1"/>
+		<sys class="flame"   flogic="0" anim="4"/>
+		<sys class="reactor" flogic="1" anim="2"/>
+		<sys class="flame"   flogic="1" anim="5"/>
+		<sys class="reactor" flogic="2" anim="3"/>
+		<sys class="flame"   flogic="2" anim="6"/>
+		<sys class="signal" flogic="0" msg="shields up weapons online" />
+		<sys class="signal" flogic="1" msg="shields up weapons online" />
+
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="0" dmg="12" rate="5000" range="950" hp="125" maxhp="125"/>
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="1" dmg="12" rate="5000" range="1100" hp="125" maxhp="125"/>
+		<sys class="fixedturret" type="starbomb" proj="starbomb_green_small" flogic="2" dmg="8" rate="9000" range="700" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="3" dmg="4" rate="3500" range="500" hp="75" maxhp="75"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="4" dmg="4" rate="3500" range="500" hp="75" maxhp="75"/>
+		<sys class="fixedturret" type="starbomb" proj="starbomb_green_med" flogic="5" dmg="10" rate="12000" range="850" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="flak" proj="flak_generic" flogic="6" dmg="3" rate="3000" range="150" hp="75" maxhp="75" count="3" spread="20"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_small" flogic="7" dmg="1" rate="1210" range="400" hp="75" maxhp="75"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_small" flogic="8" dmg="1" rate="1310" range="400" hp="75" maxhp="75"/>
+	</ship>
+	
+	<ship class="aru_destroyer" body="0" maxSpeed="30" maxAccel="15" hp="3000" maxhp="3000" reward="100">
+		<sys class="reactor" flogic="0" anim="1" hp="50"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+
+		<sys class="reactor" flogic="1" anim="3" hp="200"/>
+		<sys class="flame"   flogic="1" anim="4"/>
+
+		<sys class="reactor" flogic="2" anim="5" hp="200"/>
+		<sys class="flame"   flogic="2" anim="6"/>
+
+		<sys class="reactor" flogic="3" anim="7" hp="200"/>
+		<sys class="flame"   flogic="3" anim="8"/>
+
+		<sys class="signal" flogic="0" msg="and no matter what happens hold your position" />
+		<sys class="signal" flogic="1" msg="and no matter what happens hold your position" />
+
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="0" dmg="20" rate="8000" range="1200" hp="200" maxhp="200"/>
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="4" dmg="20" rate="8000" range="1200" hp="100" maxhp="100"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="1" dmg="30" rate="12000" range="1300" hp="100" maxhp="100"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="2" dmg="30" rate="12100" range="1300" hp="100" maxhp="100"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="3" dmg="30" rate="12200" range="1300" hp="100" maxhp="100"/>
+
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="5" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="6" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="7" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="8" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="9" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+	</ship>
+
+	<ship class="aru_stealthcarrier" body="0" maxSpeed="40" maxAccel="30" hp="1800" maxhp="1800" reward="80">
+		<sys class="reactor" flogic="0" anim="1" hp="50" maxhp="50"/>
+		<sys class="flame"   flogic="0" anim="3"/>
+
+		<sys class="reactor" flogic="1" anim="2" hp="200" maxhp="200"/>
+		<sys class="flame"   flogic="1" anim="4"/>
+
+		<sys class="signal" flogic="0" msg="carrier has arrived" />
+		<sys class="signal" flogic="1" msg="carrier has arrived" />
+		<sys class="signal" flogic="2" msg="carrier has arrived" />
+
+		<sys class="turret" type="flak" sprite="aru_flak_turret"  proj="flak_generic" flogic="0" dmg="5" rate="1000" range="250" hp="250" maxhp="250" count="4" spread="30"/>
+		<sys class="turret" type="flak" sprite="aru_flak_turret"  proj="flak_generic" flogic="1" dmg="5" rate="2000" range="350" hp="250" maxhp="250" count="4" spread="20"/>
+
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="2" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="3" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="4" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+
+		<sys class="bay" flogic="5" fighter="aru_fighter" start="1" max="4" totalMax="200" rate="8000" hp="180" maxhp="180"/>
+		<sys class="bay" flogic="6" fighter="aru_interceptor" start="1" max="4" totalMax="200" rate="7000" hp="180" maxhp="180"/>
+	</ship>
+
+	<ship class="aru_skyisland" body="0" maxSpeed="10" maxAccel="5" hp="1000" maxhp="1000" reward="80">
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="0" dmg="10" rate="8000" range="1200" hp="200" maxhp="200"/>
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="1" dmg="10" rate="8000" range="1200" hp="200" maxhp="200"/>
+		<sys class="turret" type="flak" sprite="aru_flak_turret"  proj="flak_generic" flogic="2" dmg="2" rate="1000" range="250" hp="200" maxhp="200" count="4" spread="30"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="3" dmg="20" rate="12000" range="1300" hp="200" maxhp="200"/>
+	</ship>
+
+	<ship class="coltest" body="0" maxSpeed="30" maxAccel="15" hp="1700" reward="60">
+		<sys class="reactor" flogic="0" anim="1" hp="50"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+
+		<sys class="reactor" flogic="1" anim="3" hp="200"/>
+		<sys class="flame"   flogic="1" anim="4"/>
+
+		<sys class="reactor" flogic="2" anim="5" hp="200"/>
+		<sys class="flame"   flogic="2" anim="6"/>
+
+		<sys class="reactor" flogic="3" anim="7" hp="200"/>
+		<sys class="flame"   flogic="3" anim="8"/>
+
+		<sys class="signal" flogic="0" msg="and no matter what happens hold your position" />
+		<sys class="signal" flogic="1" msg="and no matter what happens hold your position" />
+	</ship>
+
+	<ship class="asteroid1" maxSpeed="12" maxAccel="10" hp="70" maxhp="70" damage="40" reward="12">
+	</ship>
+
+	<ship class="asteroid2" maxSpeed="15" maxAccel="8" hp="60" maxhp="60" damage="36" reward="10">
+	</ship>
+
+	<ship class="random_relic" maxSpeed="5" maxAccel="5">
+	</ship>
+
+	<ship class="generic_mine" body="0" maxSpeedIdle="20" maxSpeedHunt="40" maxAccel="100" hp="30" maxhp="30" range="150" damage="100" reward="1">
+		<sys class="flame" flogic="0" anim="1"/>
+	</ship>
+
+	<ship class="aru_cruisemissile" body="0" destroyed="1" explosion="fx_explode003" hp="40" maxhp="40" maxSpeed="120" maxAccel="90" turn="8" damage="200" reward="25" />
+
+	<ship class="bosssnake_gunship" body="0" destroyed="1" explosion="fx_explode004" hp="125" maxhp="125" maxSpeed="115" maxAccel="95" turn="8" reward="4">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="main_weapon" type="laser" proj="laser_blue_med" flogic="0" dmg="3" rate="900" range="600" hp="150" maxhp="150"/>
+		<sys class="main_weapon" type="laser" proj="laser_blue_med" flogic="1" dmg="4" rate="900" range="600" hp="150" maxhp="150"/>
+		<sys class="fixedturret" type="flak" proj="flak_generic" flogic="0" dmg="3" rate="2500" range="90" hp="200" maxhp="200" count="3" spread="20"/>
+		<sys class="signal" flogic="0" msg="strike and dark star roll call" />
+	</ship>
+
+	<ship class="bosssnake_carrier_relic" body="0" maxSpeed="15" maxAccel="5" hp="1600" maxhp="1600" reward="125">
+		<sys class="bay" flogic="0" fighter="bosssnake_gunship" start="1" max="4" totalMax="1000" rate="9000" hp="2500" maxhp="2500"/>
+	</ship>
+
+	<ship class="boss_snake" body="0" destroyed="5" maxSpeed="120" maxAccel="100" hp="1000" maxhp="1000" reward="100" segments="4">
+	</ship>
+
+	<ship class="boss_snake_body1" body="1" destroyed="6" maxSpeed="0" maxAccel="0" hp="1600" maxhp="1600" reward="60">
+		<sys class="turret" type="laser" sprite="bosssnake_laser_turret" proj="laser_blue_large" flogic="0" dmg="3" rate="1200" range="1200" hp="500" maxhp="500"/>
+
+		<sys class="turret" type="flak" sprite="bosssnake_flak_turret"  proj="flak_generic" flogic="1" dmg="3" rate="1000" range="120" hp="200" maxhp="200" count="3" spread="20"/>
+	</ship>
+
+	<ship class="boss_snake_body2" body="1" destroyed="6" maxSpeed="0" maxAccel="0" hp="1600" maxhp="1600" reward="60">
+		<sys class="turret" type="laser" sprite="bosssnake_laser_turret" proj="laser_blue_large" flogic="0" dmg="3" rate="1000" range="1200" hp="500" maxhp="500"/>
+
+		<sys class="turret" type="starbomb" sprite="bosssnake_bomb_turret" proj="starbomb_blue_med" flogic="1" dmg="20" rate="9000" range="1300" hp="250" maxhp="250"/>
+	</ship>
+
+	<ship class="boss_snake_tail" body="2" destroyed="7" maxSpeed="0" maxAccel="0" hp="500" maxhp="500" reward="60">
+		<sys class="flame" flogic="0" anim="3"/>
+		<sys class="flame" flogic="1" anim="4"/>
+	</ship>
+
+	<ship class="corrupted_aru_destroyer" body="0" maxSpeed="30" maxAccel="15" hp="3500" maxhp="3500" reward="150">
+		<sys class="reactor" flogic="0" anim="1" hp="50"/>
+		<sys class="flame"   flogic="0" anim="2"/>
+
+		<sys class="reactor" flogic="1" anim="3" hp="200"/>
+		<sys class="flame"   flogic="1" anim="4"/>
+
+		<sys class="reactor" flogic="2" anim="5" hp="200"/>
+		<sys class="flame"   flogic="2" anim="6"/>
+
+		<sys class="reactor" flogic="3" anim="7" hp="200"/>
+		<sys class="flame"   flogic="3" anim="8"/>
+
+		<sys class="signal" flogic="0" msg="and no matter what happens hold your position" />
+		<sys class="signal" flogic="1" msg="and no matter what happens hold your position" />
+
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="0" dmg="25" rate="8000" range="1200" hp="250" maxhp="250"/>
+		<sys class="turret" type="laser" sprite="aru_laser_turret" proj="laser_green_large" flogic="4" dmg="25" rate="8000" range="1200" hp="250" maxhp="250"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="1" dmg="30" rate="12000" range="1300" hp="100" maxhp="100"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="2" dmg="30" rate="12100" range="1300" hp="100" maxhp="100"/>
+		<sys class="turret" type="starbomb" sprite="aru_bomb_turret" proj="starbomb_green_med" flogic="3" dmg="30" rate="12200" range="1300" hp="100" maxhp="100"/>
+
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="5" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="6" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="7" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="8" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="9" dmg="5" rate="3500" range="650" hp="50" maxhp="50"/>
+	</ship>
+
+	<ship class="corrupted_aru_stealthcarrier" body="0" maxSpeed="40" maxAccel="30" hp="2000" maxhp="2000" reward="120">
+		<sys class="reactor" flogic="0" anim="1" hp="50" maxhp="50"/>
+		<sys class="flame"   flogic="0" anim="3"/>
+
+		<sys class="reactor" flogic="1" anim="2" hp="200" maxhp="200"/>
+		<sys class="flame"   flogic="1" anim="4"/>
+
+		<sys class="signal" flogic="0" msg="carrier has arrived" />
+		<sys class="signal" flogic="1" msg="carrier has arrived" />
+		<sys class="signal" flogic="2" msg="carrier has arrived" />
+
+		<sys class="turret" type="flak" sprite="aru_flak_turret"  proj="flak_generic" flogic="0" dmg="6" rate="1000" range="250" hp="250" maxhp="250" count="4" spread="30"/>
+		<sys class="turret" type="flak" sprite="aru_flak_turret"  proj="flak_generic" flogic="1" dmg="6" rate="2000" range="350" hp="250" maxhp="250" count="5" spread="20"/>
+
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="2" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="3" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+		<sys class="fixedturret" type="laser" proj="laser_green_med" flogic="4" dmg="2" rate="1200" range="450" hp="50" maxhp="50"/>
+
+		<sys class="bay" flogic="5" fighter="aru_fighter" start="1" max="4" totalMax="200" rate="6000" hp="1800" maxhp="1800"/>
+		<sys class="bay" flogic="6" fighter="aru_interceptor" start="1" max="4" totalMax="200" rate="5000" hp="1800" maxhp="1800"/>
+	</ship>
+
+	<ship class="bossplanetoid_fighter" body="0" destroyed="1" explosion="fx_explode004" hp="90" maxhp="90" maxSpeed="100" maxAccel="130" turn="8" reward="10">
+		<sys class="flame" flogic="0" anim="2"/>
+		<sys class="flame" flogic="1" anim="2"/>
+		<sys class="flame" flogic="2" anim="3"/>
+		<sys class="main_weapon" type="laser" proj="laser_yellow_small" flogic="0" dmg="5" rate="500" range="400" hp="150" maxhp="150"/>
+		<sys class="fixedturret" type="starbomb" proj="starbomb_yellow_small" flogic="0" dmg="10" rate="5000" range="350" hp="150" maxhp="150"/>
+	</ship>
+
+	<ship class="boss_satellite" body="0" maxSpeed="60" maxAccel="90" hp="1200" maxhp="1200" reward="100">
+		<sys class="flame" flogic="0" anim="1"/>
+
+		<sys class="signal" flogic="0" msg="protect the gods" />
+		<sys class="signal" flogic="1" msg="protect the gods" />
+		<sys class="signal" flogic="2" msg="protect the gods" />
+
+		<sys class="turret" type="laser" sprite="bossplanet_laser_turret" proj="laser_yellow_large" flogic="0" dmg="4" rate="1000" range="300" hp="220" maxhp="220"/>
+	</ship>
+
+	<ship class="boss_planetoid" body="0" maxSpeed="50" maxAccel="20" hp="8000" maxhp="8000" satellites="3" reward="500">
+		<sys class="flame"   flogic="0" anim="1"/>
+		<sys class="flame"   flogic="1" anim="2"/>
+		<sys class="flame"   flogic="2" anim="3"/>
+
+		<sys class="signal" flogic="0" msg="the end draws near" />
+		<sys class="signal" flogic="1" msg="the end draws near" />
+		<sys class="signal" flogic="2" msg="the end draws near" />
+
+		<sys class="turret" type="laser" sprite="bossplanet_laser_turret" proj="laser_yellow_large" flogic="0" dmg="7" rate="2000" range="1200" hp="400" maxhp="400"/>
+		<sys class="turret" type="laser" sprite="bossplanet_laser_turret" proj="laser_yellow_large" flogic="1" dmg="7" rate="2000" range="1200" hp="400" maxhp="400"/>
+		<sys class="turret" type="starbomb" sprite="bossplanet_bomb_turret" proj="starbomb_yellow_med" flogic="2" dmg="32" rate="12200" range="1300" hp="400" maxhp="400"/>
+		<sys class="turret" type="flak" sprite="bossplanet_flak_turret"  proj="flak_generic" flogic="3" dmg="4" rate="1500" range="300" hp="400" maxhp="400" count="4" spread="30"/>
+
+		<sys class="bay" flogic="4" fighter="bossplanetoid_fighter" start="1" max="6" totalMax="1000" rate="4500" hp="1000" maxhp="1000"/>
+	</ship>
+
+</shiplib>

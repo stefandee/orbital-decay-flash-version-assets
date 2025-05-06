@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\unit_bosssnake_carrierrelic.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="2" y="25" width="258" height="67" info="No info" />
+        <module id="4097" imageid="4096" x="35" y="92" width="59" height="30" info="No info" />
+        <module id="4098" imageid="4096" x="94" y="92" width="48" height="47" info="No info" />
+        <module id="4099" imageid="4096" x="142" y="92" width="32" height="40" info="No info" />
+        <module id="4100" imageid="4096" x="174" y="92" width="55" height="31" info="No info" />
+        <module id="4101" imageid="4096" x="141" y="14" width="25" height="11" info="No info" />
+        <module id="4102" imageid="4096" x="166" y="19" width="26" height="6" info="No info" />
+        <module id="4103" imageid="4096" x="201" y="16" width="13" height="9" info="No info" />
+        <module id="4104" imageid="4096" x="218" y="12" width="11" height="8" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-135" y="-42" flags="0" />
+                <fmodule moduleid="4097" x="-103" y="25" flags="0" />
+                <fmodule moduleid="4098" x="-44" y="25" flags="0" />
+                <fmodule moduleid="4099" x="4" y="25" flags="0" />
+                <fmodule moduleid="4100" x="36" y="25" flags="0" />
+                <fmodule moduleid="4101" x="4" y="-53" flags="0" />
+                <fmodule moduleid="4102" x="29" y="-48" flags="0" />
+                <fmodule moduleid="4103" x="65" y="-51" flags="0" />
+                <fmodule moduleid="4104" x="86" y="-53" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor" />
+                <flogic id="4097" info="flame" />
+                <flogic id="4098" info="turret">
+                    <flogicitem id="4096" type="0" x="-21" y="0" />
+                </flogic>
+                <flogic id="4099" info="main weapon" />
+                <flogic id="4100" info="signal lights" />
+            </flogics>
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4097" info="">
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

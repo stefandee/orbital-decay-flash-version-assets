@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="unit_generic_jumpgate.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="9" y="8" width="244" height="239" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-123" y="-121" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor" />
+                <flogic id="4097" info="flame" />
+                <flogic id="4098" info="turret" />
+                <flogic id="4099" info="main weapon" />
+                <flogic id="4100" info="signal lights" />
+            </flogics>
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4097" info="">
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

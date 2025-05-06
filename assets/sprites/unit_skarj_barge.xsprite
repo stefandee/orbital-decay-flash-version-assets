@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\unit_skarj_barge.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="8" y="43" width="157" height="48" info="No info" />
+        <module id="4097" imageid="4096" x="30" y="33" width="24" height="10" info="No info" />
+        <module id="4098" imageid="4096" x="110" y="8" width="52" height="35" info="No info" />
+        <module id="4099" imageid="4096" x="66" y="91" width="101" height="72" info="No info" />
+        <module id="4100" imageid="4096" x="165" y="53" width="36" height="32" info="No info" />
+        <module id="4101" imageid="4096" x="184" y="85" width="32" height="22" info="No info" />
+        <module id="4102" imageid="4096" x="214" y="124" width="69" height="33" info="No info" />
+        <module id="4103" imageid="4096" x="250" y="3" width="46" height="29" info="No info" />
+        <module id="4104" imageid="4096" x="250" y="36" width="46" height="29" info="No info" />
+        <module id="4105" imageid="4096" x="250" y="71" width="46" height="29" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-106" y="-66" flags="0" />
+                <fmodule moduleid="4097" x="-84" y="-76" flags="0" />
+                <fmodule moduleid="4098" x="-4" y="-101" flags="0" />
+                <fmodule moduleid="4099" x="-48" y="-18" flags="0" />
+                <fmodule moduleid="4100" x="51" y="-56" flags="0" />
+                <fmodule moduleid="4101" x="70" y="-24" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor">
+                    <flogicitem id="4096" type="0" x="49" y="-72" />
+                </flogic>
+                <flogic id="4097" info="flame">
+                    <flogicitem id="4096" type="0" x="88" y="-70" />
+                </flogic>
+                <flogic id="4098" info="turret">
+                    <flogicitem id="4096" type="0" x="24" y="-30" />
+                    <flogicitem id="4097" type="0" x="29" y="-41" />
+                    <flogicitem id="4098" type="0" x="26" y="-2" />
+                    <flogicitem id="4099" type="0" x="31" y="-86" />
+                </flogic>
+                <flogic id="4099" info="main weapon" />
+                <flogic id="4100" info="signal lights">
+                    <flogicitem id="4096" type="0" x="101" y="-3" />
+                    <flogicitem id="4097" type="0" x="-69" y="-19" />
+                </flogic>
+            </flogics>
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4102" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4103" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4104" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4105" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="idle">
+            <aframe frameid="4096" time="10000" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4097" info="reactor">
+            <aframe frameid="4097" time="10000" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="flame">
+            <aframe frameid="4098" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="80" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

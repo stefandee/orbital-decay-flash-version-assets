@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="unit_boss_satellite.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="32" y="51" width="69" height="52" info="No info" />
+        <module id="4097" imageid="4096" x="9" y="91" width="23" height="11" info="No info" />
+        <module id="4098" imageid="4096" x="86" y="103" width="24" height="24" info="No info" />
+        <module id="4099" imageid="4096" x="59" y="12" width="2" height="39" info="No info" />
+        <module id="4100" imageid="4096" x="55" y="103" width="12" height="7" info="No info" />
+        <module id="4101" imageid="4096" x="14" y="117" width="12" height="17" info="No info" />
+        <module id="4102" imageid="4096" x="30" y="117" width="12" height="17" info="No info" />
+        <module id="4103" imageid="4096" x="46" y="117" width="12" height="17" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="body">
+            <fmodules>
+                <fmodule moduleid="4096" x="-29" y="-29" flags="0" />
+                <fmodule moduleid="4097" x="-52" y="11" flags="0" />
+                <fmodule moduleid="4098" x="25" y="23" flags="0" />
+                <fmodule moduleid="4099" x="-2" y="-68" flags="0" />
+                <fmodule moduleid="4100" x="-6" y="23" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor" />
+                <flogic id="4097" info="flame">
+                    <flogicitem id="4096" type="0" x="0" y="29" />
+                </flogic>
+                <flogic id="4098" info="turret">
+                    <flogicitem id="4096" type="0" x="0" y="0" />
+                </flogic>
+                <flogic id="4099" info="main weapon">
+                    <flogicitem id="4096" type="0" x="0" y="0" />
+                </flogic>
+                <flogic id="4100" info="signal lights">
+                    <flogicitem id="4096" type="0" x="-53" y="21" />
+                    <flogicitem id="4097" type="0" x="49" y="47" />
+                    <flogicitem id="4098" type="0" x="-2" y="-68" />
+                </flogic>
+            </flogics>
+        </frame>
+        <frame id="4097" info="reactor">
+            <fmodules>
+                <fmodule moduleid="4100" x="-6" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4101" x="-6" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4102" x="-6" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4103" x="-6" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="idle">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="flame">
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

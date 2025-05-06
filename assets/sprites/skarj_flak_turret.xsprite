@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="skarj_flak_turret.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="1" y="1" width="14" height="14" info="No info" />
+        <module id="4097" imageid="4096" x="17" y="1" width="14" height="14" info="No info" />
+        <module id="4098" imageid="4096" x="2" y="17" width="13" height="6" info="No info" />
+        <module id="4099" imageid="4096" x="14" y="18" width="1" height="4" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4099" x="-4" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-5" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-6" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-7" y="-2" flags="0" />
+                <fmodule moduleid="4098" x="-20" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4099" x="-4" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-5" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-6" y="-2" flags="0" />
+                <fmodule moduleid="4098" x="-19" y="-3" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="fire">
+                    <flogicitem id="4096" type="0" x="-19" y="0" />
+                </flogic>
+            </flogics>
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4099" x="-4" y="-2" flags="0" />
+                <fmodule moduleid="4099" x="-5" y="-2" flags="0" />
+                <fmodule moduleid="4098" x="-18" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4099" x="-4" y="-2" flags="0" />
+                <fmodule moduleid="4098" x="-17" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-16" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4101" info="">
+            <fmodules>
+                <fmodule moduleid="4097" x="-7" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="idle">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4097" info="fire">
+            <aframe frameid="4097" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4097" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="">
+            <aframe frameid="4101" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

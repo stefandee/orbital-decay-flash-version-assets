@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="fx_explode001.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="6" y="5" width="9" height="9" info="No info" />
+        <module id="4097" imageid="4096" x="23" y="4" width="9" height="11" info="No info" />
+        <module id="4098" imageid="4096" x="39" y="3" width="11" height="12" info="No info" />
+        <module id="4099" imageid="4096" x="55" y="3" width="13" height="13" info="No info" />
+        <module id="4100" imageid="4096" x="73" y="3" width="12" height="14" info="No info" />
+        <module id="4101" imageid="4096" x="89" y="3" width="13" height="13" info="No info" />
+        <module id="4102" imageid="4096" x="107" y="3" width="12" height="13" info="No info" />
+        <module id="4103" imageid="4096" x="124" y="2" width="12" height="14" info="No info" />
+        <module id="4104" imageid="4096" x="142" y="2" width="10" height="14" info="No info" />
+        <module id="4105" imageid="4096" x="159" y="4" width="9" height="11" info="No info" />
+        <module id="4106" imageid="4096" x="177" y="6" width="7" height="9" info="No info" />
+        <module id="4107" imageid="4096" x="195" y="7" width="6" height="5" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-5" y="-5" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4097" x="-4" y="-6" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4098" x="-5" y="-6" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4099" x="-6" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4100" x="-6" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4101" info="">
+            <fmodules>
+                <fmodule moduleid="4101" x="-7" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4102" info="">
+            <fmodules>
+                <fmodule moduleid="4102" x="-6" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4103" info="">
+            <fmodules>
+                <fmodule moduleid="4103" x="-6" y="-8" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4104" info="">
+            <fmodules>
+                <fmodule moduleid="4104" x="-5" y="-8" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4105" info="">
+            <fmodules>
+                <fmodule moduleid="4105" x="-4" y="-6" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4106" info="">
+            <fmodules>
+                <fmodule moduleid="4106" x="-3" y="-5" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4107" info="">
+            <fmodules>
+                <fmodule moduleid="4107" x="-3" y="-3" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="explode">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4097" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4101" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4102" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4103" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4104" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4105" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4106" time="1" x="0" y="0" flags="0" />
+            <aframe frameid="4107" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

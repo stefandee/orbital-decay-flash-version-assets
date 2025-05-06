@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shx:resources version="10" compress="true" w="640" h="480" fps="24" 
+	xmlns:shx="http://mindless-labs.com/samhaxe"
+	xmlns:img="http://mindless-labs.com/samhaxe/modules/Image"
+	xmlns:font="http://mindless-labs.com/samhaxe/modules/Font"
+	xmlns:snd="http://mindless-labs.com/samhaxe/modules/Sound"
+	xmlns:swf="http://mindless-labs.com/samhaxe/modules/Swf"
+	xmlns:bin="http://mindless-labs.com/samhaxe/modules/Binary">
+
+	<!-- first frame, preloader assets -->
+	<shx:frame>
+		<!-- fonts -->
+		<font:ttf name="FontMenu"						import="fonts/droid.ttf" />
+		<font:ttf name="FontIntro"						import="fonts/emulator.ttf" />
+		<font:ttf name="FontHUD"						import="fonts/visitor1.ttf" />
+
+		<font:ttf name="FontLdrGeneric"					import="fonts/RationalInteger.ttf"/>
+
+		<!-- images -->
+		<img:image class="Img_Planet"					import="img/bkg_planet6.png"/>
+		<img:image class="Img_Sun"						import="img/bkg_sun2.png"/>
+		<img:image class="Logo_Haxe"					import="img/logo_haxe.png"/>
+		<img:image class="Logo_SwfMill"					import="img/logo_swfmill.png"/>
+		<img:image class="Img_Scanline"					import="img/bkg_scanline.png"/>
+		<img:image class="Img_PlayerShipSchematics"		import="img/player_ship_schematics.png"/>
+		<img:image class="Img_Reticle000"				import="img/ui_reticle000.png"/>
+		<img:image class="Img_Reticle001"				import="img/ui_reticle001.png"/>
+		<img:image class="Img_Reticle002"				import="img/ui_reticle002.png"/>
+		
+		<!-- binary data -->
+		<bin:binary class="Data_Lang"					import="strings/langlib" genclass="symbolOnly"/>
+		<bin:binary class="Data_SprLib"					import="sprites/sprlib" genclass="symbolOnly"/>			
+		<bin:binary class="Data_ShipLib"				import="gameplay/shiplib.xml" genclass="symbolOnly"/>
+		<bin:binary class="Data_Campaign_Easy"			import="gameplay/campaign_easy.xml" genclass="symbolOnly"/>
+		<bin:binary class="Data_Campaign_Normal"		import="gameplay/campaign_normal.xml" genclass="symbolOnly"/>
+		<bin:binary class="Data_Campaign_Hard"			import="gameplay/campaign_hard.xml" genclass="symbolOnly"/>
+
+		<!-- music -->
+
+		<!-- sounds -->
+		<snd:sound class="SND_UIClick"					import="sound\snd_uiclick.mp3"/>
+		<snd:sound class="SND_MsgAlert"					import="sound\snd_msgalert.mp3"/>
+		<snd:sound class="SND_UltraGun"					import="sound\snd_ultragun.mp3"/>
+		<snd:sound class="SND_CapitalShipDead"			import="sound\snd_capitalshipdead.mp3"/>
+		<snd:sound class="SND_FighterShipDead"			import="sound\snd_fightershipdead.mp3"/>
+		<snd:sound class="SND_FlakFire"					import="sound\snd_flakfire.mp3"/>
+		<snd:sound class="SND_RocketFire"				import="sound\snd_rocketfire2.mp3"/>
+		<snd:sound class="SND_LaserFire_Small"			import="sound\snd_laserfire_small.wav"/>
+		<snd:sound class="SND_LaserFire_Large"			import="sound\snd_laserfire_large.wav"/>
+		<snd:sound class="SND_LaserFire_Small_Player"	import="sound\snd_laserfire_small_player.wav"/>
+		<snd:sound class="SND_BombFire"					import="sound\snd_bombfire.mp3"/>
+		<snd:sound class="SND_RocketHit"				import="sound\snd_rockethit2.mp3"/>
+		<snd:sound class="SND_SystemDead"				import="sound\snd_systemdead.mp3"/>
+		<snd:sound class="SND_ShipHit"					import="sound\snd_shiphit4.wav"/>
+		<snd:sound class="SND_FighterDrop"				import="sound\snd_fighterdrop.mp3"/>
+		<snd:sound class="SND_Jumpgate"					import="sound\snd_jumpgate.wav"/>
+		<snd:sound class="SND_FighterDrop_Alien"		import="sound\snd_fighterdrop_alien.mp3"/>
+		<snd:sound class="SND_Player_Alarm"				import="sound\snd_player_alarm.mp3"/>
+		<snd:sound class="SND_BombFire_Small"			import="sound\snd_bombfire_small.mp3"/>
+		<snd:sound class="SND_Formation_Drop"			import="sound\snd_formation_drop.mp3"/>
+		<snd:sound class="SND_Asteroid"					import="sound\snd_asteroid.mp3"/>
+		<snd:sound class="SND_AutoTarget"				import="sound\snd_autotarget.mp3"/>
+		<snd:sound class="SND_Planet"					import="sound\snd_planet.mp3"/>
+	</shx:frame>
+
+	
+	<!-- second frame, rest of the assets (not used right now) -->
+	<shx:frame>
+	</shx:frame>
+
+</shx:resources>

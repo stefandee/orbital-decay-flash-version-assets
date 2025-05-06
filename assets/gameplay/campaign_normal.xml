@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<campaign>
+	<cmd class="message" time="0">
+		<message delay="1" msg="StrId_Story000" portrait="4"/>
+		<message delay="2" msg="StrId_Story001" portrait="1"/>
+		<message delay="1" msg="StrId_Story002" portrait="1"/>
+		<message delay="1" msg="StrId_Story003" portrait="1"/>
+		<message delay="2" msg="StrId_Story004" portrait="1"/>
+		<message delay="2" msg="StrId_Story005" portrait="1"/>
+		<message delay="4" msg="StrId_Story006" portrait="0"/>
+		<message delay="4" msg="StrId_Story007" portrait="0"/>
+		<message delay="3" msg="StrId_Story008" portrait="0"/>
+	</cmd>
+
+	<cmd class="checkpoint" time="22" delay="5" id="0" message="StrId_Story009"/>
+
+	<cmd class="message" time="28">
+		<message delay="3" msg="StrId_Story010" portrait="0"/>
+		<message delay="3" msg="StrId_Story011" portrait="1"/>
+		<message delay="3" msg="StrId_Story012" portrait="1"/>
+		<message delay="4" msg="StrId_Story013" portrait="0"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="40" delay="12" objCount="1" startY="100" dropCount="5" spacing="10" formation="line" objId="raider_fighter"/>
+
+	<cmd class="message" time="41">
+		<message delay="4" msg="StrId_Story014" portrait="1"/>
+		<message delay="3" msg="StrId_Story015" portrait="1"/>
+		<message delay="3" msg="StrId_Story016" portrait="2"/>
+		<message delay="3" msg="StrId_Story017" portrait="0"/>
+		<message delay="4" msg="StrId_Story018" portrait="1"/>
+		<message delay="4" msg="StrId_Story019" portrait="1"/>
+		<message delay="4" msg="StrId_Story020" portrait="1"/>
+		<message delay="4" msg="StrId_Story021" portrait="1"/>
+		<message delay="2" msg="StrId_Story022" portrait="0"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="105" delay="8" objCount="2" startY="100" dropCount="5" spacing="80" formation="line" objId="raider_fighter"/>
+
+	<cmd class="formation" time="140" delay="8" deltaY="100" objCount="2" startY="random" dropCount="2" spacing="50" formation="column" objId="raider_fighter"/>
+
+	<cmd endY="400" class="formation" time="160" delay="8" objCount="2" startY="100" dropCount="2" spacing="80" formation="line" objId="raider_fighter"/>
+
+	<cmd class="formation" time="160" delay="10" deltaY="100" objCount="2" startY="random" dropCount="2" spacing="15" formation="column" objId="raider_fighter"/>
+
+	<cmd class="message" time="190">
+		<message delay="5" msg="StrId_Story163" portrait="1"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="195" delay="10" objCount="1" startY="100" dropCount="1" spacing="10" formation="line" objId="raider_gunship"/>
+
+	<cmd endY="400" class="formation" time="205" delay="17" objCount="2" startY="100" dropCount="3" spacing="100" formation="line" objId="raider_fighter"/>
+
+	<cmd class="formation" time="220" delay="15" deltaY="120" objCount="2" startY="random" dropCount="2" spacing="50" formation="column" objId="raider_gunship"/>
+
+	<cmd class="message" time="221">
+		<message delay="3" msg="StrId_Story016" portrait="2"/>
+	</cmd>
+
+	<cmd class="formation" time="235" delay="15" deltaY="144" objCount="2" startY="random" dropCount="2" spacing="50" formation="column" objId="raider_fighter"/>
+
+	<cmd endY="400" class="formation" time="240" delay="9" objCount="1" startY="100" dropCount="5" spacing="80" formation="line" objId="raider_fighter"/>
+
+	<cmd class="message" time="272">
+		<message delay="5" msg="StrId_Story024" portrait="1"/>
+		<message delay="2" msg="StrId_Story025" portrait="0"/>
+		<message delay="3" msg="StrId_Story026" portrait="0"/>
+		<message delay="3" msg="StrId_Story027" portrait="1"/>
+		<message delay="2" msg="StrId_Story028" portrait="0"/>
+	</cmd>
+
+	<cmd endY="245" class="formation" time="275" delay="50" objCount="7" startY="235" dropCount="2" spacing="50" formation="wedge" objId="raider_fighter"/>
+
+	<cmd endY="245" class="formation" time="290" delay="30" objCount="3" startY="235" dropCount="1" spacing="70" formation="wedge" objId="raider_gunship"/>
+
+	<cmd class="checkpoint" time="360" delay="5" id="1" message="StrId_Story029"/>
+
+	<cmd class="message" time="364">
+		<message delay="3" msg="StrId_Story030" portrait="0"/>
+		<message delay="3" msg="StrId_Story031" portrait="1"/>
+		<message delay="2" msg="StrId_Story032" portrait="1"/>
+		<message delay="3" msg="StrId_Story033" portrait="0"/>
+		<message delay="3" msg="StrId_Story034" portrait="1"/>
+	</cmd>
+
+	<cmd endY="380" class="formation" time="370" delay="53" objCount="3" startY="100" dropCount="5" spacing="70" formation="wedge" objId="raider_fighter"/>
+
+	<cmd class="message" time="382">
+		<message delay="3" msg="StrId_Story035" portrait="1"/>
+		<message delay="3" msg="StrId_Story036" portrait="0"/>
+	</cmd>
+
+	<cmd class="formation" time="383" delay="31" deltaY="80" objCount="1" startY="random" dropCount="3" spacing="70" formation="column" objId="asteroid1"/>
+
+	<cmd class="formation" time="405" delay="34" deltaY="80" objCount="1" startY="random" dropCount="3" spacing="70" formation="column" objId="asteroid2"/>
+
+	<cmd endY="400" class="formation" time="410" delay="36" objCount="1" startY="100" dropCount="3" spacing="80" formation="line" objId="raider_gunship"/>
+
+	<cmd class="formation" time="420" delay="32" deltaY="80" objCount="2" startY="random" dropCount="3" spacing="70" formation="column" objId="raider_fighter"/>
+
+	<cmd class="formation" time="430" delay="46" deltaY="80" objCount="1" startY="random" dropCount="3" spacing="70" formation="column" objId="raider_corvette"/>
+
+	<cmd class="formation" time="495" delay="33" deltaY="220" objCount="2" startY="random" dropCount="2" spacing="70" formation="column" objId="raider_gunship"/>
+
+	<cmd class="formation" time="540" delay="25" deltaY="80" objCount="2" startY="random" dropCount="4" spacing="70" formation="column" objId="raider_fighter"/>
+
+	<cmd class="message" time="545">
+		<message delay="3" msg="StrId_Story037" portrait="1"/>
+		<message delay="3" msg="StrId_Story038" portrait="1"/>
+		<message delay="3" msg="StrId_Story039" portrait="0"/>
+	</cmd>
+
+	<cmd class="message" time="549">
+		<message delay="4" msg="StrId_Story016" portrait="7"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="550" delay="40" objCount="1" startY="100" dropCount="3" spacing="70" formation="line" objId="raider_frigate"/>
+
+	<cmd class="checkpoint" time="660" delay="5" id="2" message="StrId_Story040"/>
+
+	<cmd class="message" time="662">
+		<message delay="2" msg="StrId_Story041" portrait="1"/>
+		<message delay="3" msg="StrId_Story042" portrait="0"/>
+		<message delay="3" msg="StrId_Story043" portrait="1"/>
+		<message delay="3" msg="StrId_Story044" portrait="0"/>
+		<message delay="3" msg="StrId_Story045" portrait="1"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="672" delay="40" objCount="4" startY="100" dropCount="5" spacing="100" formation="line" objId="raider_fighter"/>
+
+	<cmd endY="380" class="formation" time="682" delay="50" objCount="3" startY="100" dropCount="5" spacing="70" formation="wedge" objId="raider_gunship"/>
+
+	<cmd class="formation" time="692" delay="55" deltaY="300" objCount="2" startY="random" dropCount="4" spacing="70" formation="column" objId="raider_corvette"/>
+
+	<cmd endY="400" class="formation" time="702" delay="80" objCount="1" startY="100" dropCount="3" spacing="70" formation="line" objId="raider_frigate"/>
+
+	<cmd class="message" time="850">
+		<message delay="3" msg="StrId_Story046" portrait="1"/>
+		<message delay="3" msg="StrId_Story047" portrait="0"/>
+	</cmd>
+
+	<cmd class="message" time="892">
+		<message delay="3" msg="StrId_Story048" portrait="2"/>
+		<message delay="3" msg="StrId_Story049" portrait="0"/>
+		<message delay="3" msg="StrId_Story164" portrait="1"/>
+		<message delay="2" msg="StrId_Story051" portrait="0"/>
+	</cmd>
+
+	<cmd endY="380" class="formation" time="900" delay="40" objCount="2" startY="120" dropCount="2" spacing="100" formation="wedge" objId="raider_corvette"/>
+
+	<cmd endY="360" class="formation" time="910" delay="40" objCount="1" startY="120" dropCount="1" spacing="320" formation="line" objId="raider_carrier"/>
+
+	<cmd class="message" time="913">
+		<message delay="4" msg="StrId_Story052" portrait="7"/>
+	</cmd>
+
+	<cmd class="formation" time="915" delay="40" deltaY="300" objCount="2" startY="random" dropCount="1" spacing="70" formation="column" objId="raider_frigate"/>
+
+	<cmd endY="380" class="formation" time="970" delay="40" objCount="3" startY="120" dropCount="1" spacing="100" formation="wedge" objId="raider_corvette"/>
+
+	<cmd class="checkpoint" time="1000" delay="5" id="3" message="StrId_Story053"/>
+	
+	<cmd class="message" time="1002">
+		<message delay="2" msg="StrId_Story054" portrait="1"/>
+		<message delay="3" msg="StrId_Story055" portrait="1"/>
+		<message delay="4" msg="StrId_Story056" portrait="1"/>
+		<message delay="3" msg="StrId_Story057" portrait="1"/>
+		<message delay="2" msg="StrId_Story058" portrait="0"/>
+		<message delay="3" msg="StrId_Story059" portrait="1"/>
+		<message delay="2" msg="StrId_Story060" portrait="0"/>
+		<message delay="3" msg="StrId_Story061" portrait="1"/>
+		<message delay="3" msg="StrId_Story062" portrait="1"/>
+		<message delay="3" msg="StrId_Story063" portrait="0"/>
+		<message delay="3" msg="StrId_Story064" portrait="1"/>
+		<message delay="3" msg="StrId_Story065" portrait="0"/>
+	</cmd>
+
+	<cmd endY="380" class="formation" time="1015" delay="47" objCount="9" startY="100" dropCount="8" spacing="80" formation="wedge" objId="raider_fighter"/>
+
+	<cmd class="formation" time="1030" delay="40" deltaY="100" objCount="1" startY="random" dropCount="2" spacing="70" formation="column" objId="raider_frigate"/>
+
+	<cmd class="message" time="1048">
+		<message delay="3" msg="StrId_Story066" portrait="0"/>
+	</cmd>
+
+	<cmd endY="400" class="formation" time="1050" delay="50" objCount="5" startY="100" dropCount="2" spacing="120" formation="line" objId="raider_bomber"/>
+
+	<cmd endY="360" class="formation" time="1115" delay="40" objCount="1" startY="120" dropCount="1" spacing="320" formation="line" objId="raider_carrier"/>
+
+	<cmd class="formation" time="1155" delay="40" deltaY="150" objCount="2" startY="random" dropCount="1" spacing="70" formation="column" objId="raider_frigate"/>
+
+	<cmd endY="380" class="formation" time="1195" delay="40" objCount="3" startY="120" dropCount="2" spacing="100" formation="wedge" objId="raider_corvette"/>
+
+	<cmd endY="360" class="formation" time="1250" delay="40" objCount="1" startY="120" dropCount="1" spacing="320" formation="line" objId="raider_carrier"/>
+
+	<cmd endY="380" class="formation" time="1300" delay="40" objCount="2" startY="120" dropCount="1" spacing="100" formation="wedge" objId="raider_frigate"/>
+
+	<cmd endY="400" class="formation" time="1350" delay="25" objCount="5" startY="100" dropCount="2" spacing="120" formation="line" objId="raider_bomber"/>
+
+	<cmd class="message" time="1370">
+		<message delay="3" msg="StrId_Story067" portrait="0"/>
+	</cmd>
+
+	<cmd class="message" time="1374">
+		<message delay="3" msg="StrId_Story068" portrait="7"/>
+		<message delay="3" msg="StrId_Story069" portrait="7"/>
+	</cmd>
+
+	<cmd class="formation" time="1375" delay="40" deltaY="200" objCount="2" startY="random" dropCount="1" spacing="320" formation="column" objId="raider_carrier"/>
+
+	<cmd endY="400" class="formation" time="1380" delay="25" objCount="5" startY="100" dropCount="1" spacing="120" formation="line" objId="raider_bomber"/>
+
+	<cmd class="checkpoint" time="1450" delay="5" id="4" message="StrId_Story070"/>
+	
+	<cmd class="message" time="1453">
+		<message delay="2" msg="StrId_Story071" portrait="0"/>
+		<message delay="3" msg="StrId_Story072" portrait="1"/>
+		<message delay="3" msg="StrId_Story073" portrait="1"/>
+		<message delay="2" msg="StrId_Story074" portrait="1"/>
+		<message delay="2" msg="StrId_Story075" portrait="4"/>
+		<message delay="3" msg="StrId_Story076" portrait="0"/>
+		<message delay="2" msg="StrId_Story077" portrait="4"/>
+		<message delay="2" msg="StrId_Story078" portrait="4"/>
+		<message delay="2" msg="StrId_Story079" portrait="1"/>
+		<message delay="3" msg="StrId_Story080" portrait="1"/>
+	</cmd>
+
+	<cmd endY="460" class="formation" time="1458" delay="37" objCount="1" startY="20" front="true" dropCount="13" spacing="320" formation="line" objId="random_relic"/>
+
+	<cmd endY="460" class="formation" time="1466" delay="37" objCount="1" startY="20" front="true" dropCount="13" spacing="320" formation="line" objId="random_relic"/>
+
+	<cmd class="formation" time="1470" delay="20" deltaY="80" objCount="1" startY="random" dropCount="10" spacing="70" formation="column" objId="asteroid1"/>
+
+	<cmd endY="400" class="formation" time="1475" delay="80" objCount="1" startY="100" dropCount="3" spacing="320" formation="line" objId="bosssnake_carrier_relic"/>
+
+	<cmd class="formation" time="1480" delay="20" deltaY="80" objCount="1" startY="random" dropCount="10" spacing="70" formation="column" objId="asteroid2"/>
+
+	<cmd class="message" time="1490">
+		<message delay="4" msg="StrId_Story081" portrait="4"/>
+		<message delay="3" msg="StrId_Story082" portrait="0"/>
+		<message delay="3" msg="StrId_Story083" portrait="1"/>
+		<message delay="3" msg="StrId_Story084" portrait="1"/>
+		<message delay="3" msg="StrId_Story085" portrait="0"/>
+	</cmd>
+
+	<cmd class="message" time="1715">
+		<message delay="3" msg="StrId_Story086" portrait="1"/>
+		<message delay="3" msg="StrId_Story087" portrait="1"/>
+		<message delay="3" msg="StrId_Story088" portrait="0"/>
+	</cmd>
+
+	<cmd endY="60" class="boss" time="1716" startY="50" objId="boss_snake"/>
+
+	<cmd class="message" time="1720">
+		<message delay="3" msg="StrId_Story089" portrait="0"/>
+		<message delay="3" msg="StrId_Story090" portrait="1"/>
+	</cmd>
+
+	<cmd class="checkpoint" time="1727" delay="5" id="5" message="StrId_Story091"/>
+
+	<cmd class="message" time="1732">
+		<message delay="3" msg="StrId_Story092" portrait="1"/>
+		<message delay="3" msg="StrId_Story093" portrait="1"/>
+		<message delay="3" msg="StrId_Story094" portrait="0"/>
+		<message delay="3" msg="StrId_Story095" portrait="1"/>
+		<message delay="3" msg="StrId_Story096" portrait="1"/>
+		<message delay="3" msg="StrId_Story097" portrait="1"/>
+	</cmd>
+
+	<cmd endY="480" class="formation" time="1740" delay="16" objCount="12" startY="16" dropCount="10" spacing="70" formation="column" objId="generic_mine"/>
+
+	<cmd class="formation" time="1750" delay="40" deltaY="80" objCount="1" startY="random" dropCount="5" spacing="70" formation="column" objId="asteroid1"/>
+
+	<cmd class="formation" time="1770" delay="40" deltaY="80" objCount="1" startY="random" dropCount="5" spacing="70" formation="column" objId="asteroid2"/>
+
+	<cmd class="message" time="1785">
+		<message delay="3" msg="StrId_Story098" portrait="1"/>
+		<message delay="3" msg="StrId_Story099" portrait="0"/>
+		<message delay="3" msg="StrId_Story100" portrait="3"/>
+		<message delay="3" msg="StrId_Story101" portrait="0"/>
+	</cmd>
+
+	<cmd class="formation" time="1791" delay="40" deltaY="300" objCount="4" startY="random" dropCount="4" spacing="60" formation="refuseleft" objId="aru_fighter"/>
+
+	<cmd class="formation" time="1930" delay="60" deltaY="300" objCount="5" startY="random" dropCount="2" spacing="100" formation="wedge" objId="aru_gunship"/>
+
+	<cmd class="message" time="1931">
+		<message delay="3" msg="StrId_Story102" portrait="3"/>
+	</cmd>
+
+	<cmd class="formation" time="1950" delay="30" deltaY="300" objCount="7" startY="random" dropCount="2" spacing="80" formation="wedge" objId="aru_fighter"/>
+
+	<cmd endY="400" class="formation" time="2020" delay="40" objCount="2" startY="100" dropCount="1" spacing="60" formation="column" objId="aru_barge"/>
+
+	<cmd class="checkpoint" time="2060" delay="5" id="6" message="StrId_Story103"/>
+	
+	<cmd class="message" time="2063">
+		<message delay="3" msg="StrId_Story104" portrait="0"/>
+		<message delay="4" msg="StrId_Story105" portrait="1"/>
+		<message delay="4" msg="StrId_Story106" portrait="1"/>
+		<message delay="3" msg="StrId_Story107" portrait="1"/>
+		<message delay="2" msg="StrId_Story108" portrait="0"/>
+		<message delay="3" msg="StrId_Story109" portrait="1"/>
+	</cmd>
+
+	<cmd endY="320" class="formation" time="2075" delay="40" objCount="5" startY="300" dropCount="5" spacing="80" formation="refuseright" objId="aru_fighter"/>
+
+	<cmd class="formation" time="2085" delay="60" deltaY="80" objCount="4" startY="random" dropCount="3" spacing="120" formation="line" objId="aru_gunship"/>
+
+	<cmd endY="380" class="formation" time="2100" delay="42" objCount="1" startY="100" dropCount="4" spacing="120" formation="line" objId="aru_skyisland"/>
+
+	<cmd endY="360" class="formation" time="2180" delay="30" objCount="3" startY="200" dropCount="4" spacing="150" formation="wedge" objId="aru_corvette"/>
+
+	<cmd endY="480" class="formation" time="2240" delay="60" objCount="1" startY="100" dropCount="2" spacing="60" formation="column" objId="aru_barge"/>
+
+	<cmd class="message" time="2250">
+		<message delay="3" msg="StrId_Story110" portrait="3"/>
+		<message delay="3" msg="StrId_Story111" portrait="3"/>
+		<message delay="3" msg="StrId_Story112" portrait="1"/>
+	</cmd>
+
+	<cmd endY="250" class="formation" time="2295" delay="45" objCount="1" startY="230" dropCount="2" spacing="60" formation="column" objId="aru_frigate"/>
+
+	<cmd endY="410" class="formation" time="2310" delay="40" objCount="3" startY="400" dropCount="3" spacing="100" formation="refuseleft" objId="aru_fighter"/>
+
+	<cmd class="message" time="2368">
+		<message delay="3" msg="StrId_Story113" portrait="3"/>
+	</cmd>
+
+	<cmd endY="350" class="formation" time="2370" delay="45" objCount="2" startY="330" dropCount="1" spacing="200" formation="refuseright" objId="aru_frigate"/>
+
+	<cmd class="checkpoint" time="2420" delay="5" id="7" message="StrId_Story114"/>
+
+	<cmd class="message" time="2423">
+		<message delay="4" msg="StrId_Story115" portrait="0"/>
+		<message delay="4" msg="StrId_Story116" portrait="1"/>
+		<message delay="4" msg="StrId_Story117" portrait="1"/>
+		<message delay="2" msg="StrId_Story118" portrait="0"/>
+		<message delay="3" msg="StrId_Story119" portrait="1"/>
+		<message delay="2" msg="StrId_Story120" portrait="0"/>
+	</cmd>
+
+	<cmd endY="130" class="formation" time="2440" delay="27" objCount="4" startY="110" dropCount="4" spacing="75" formation="refuseright" objId="aru_fighter"/>
+
+	<cmd endY="370" class="formation" time="2455" delay="27" objCount="4" startY="350" dropCount="4" spacing="75" formation="refuseleft" objId="aru_fighter"/>
+
+	<cmd class="formation" time="2510" delay="65" deltaY="200" objCount="2" startY="random" dropCount="3" spacing="120" formation="refuseleft" objId="aru_corvette"/>
+
+	<cmd class="formation" time="2557" delay="75" deltaY="300" objCount="2" startY="random" dropCount="2" spacing="120" formation="column" objId="aru_frigate"/>
+
+	<cmd class="message" time="2600">
+		<message delay="3" msg="StrId_Story121" portrait="1"/>
+		<message delay="2" msg="StrId_Story122" portrait="0"/>
+		<message delay="3" msg="StrId_Story123" portrait="1"/>
+	</cmd>
+
+	<cmd endY="480" class="formation" time="2670" delay="60" objCount="5" startY="50" dropCount="1" spacing="150" formation="column" objId="aru_gunship"/>
+
+	<cmd class="formation" time="2690" delay="60" deltaY="80" objCount="3" startY="random" dropCount="1" spacing="250" formation="line" objId="aru_barge"/>
+
+	<cmd class="message" time="2700">
+		<message delay="3" msg="StrId_Story124" portrait="3"/>
+	</cmd>
+
+	<cmd endY="250" class="formation" time="2705" delay="27" objCount="7" startY="230" dropCount="1" spacing="50" formation="wedge" objId="aru_fighter"/>
+
+	<cmd endY="360" class="formation" time="2715" delay="12" objCount="8" startY="120" dropCount="5" spacing="70" formation="column" objId="generic_mine"/>
+
+	<cmd class="formation" time="2750" delay="70" deltaY="100" objCount="2" startY="random" dropCount="1" spacing="150" formation="line" objId="aru_frigate"/>
+
+	<cmd endY="420" class="formation" time="2780" delay="70" objCount="1" startY="80" dropCount="1" spacing="150" formation="line" objId="aru_stealthcarrier"/>
+
+	<cmd class="checkpoint" time="2845" delay="5" id="8" message="StrId_Story125"/>
+
+	<cmd class="message" time="2848">
+		<message delay="5" msg="StrId_Story126" portrait="1"/>
+		<message delay="3" msg="StrId_Story127" portrait="0"/>
+		<message delay="4" msg="StrId_Story128" portrait="1"/>
+		<message delay="4" msg="StrId_Story129" portrait="1"/>
+		<message delay="4" msg="StrId_Story130" portrait="0"/>
+		<message delay="4" msg="StrId_Story131" portrait="0"/>
+		<message delay="2" msg="StrId_Story132" portrait="1"/>
+		<message delay="4" msg="StrId_Story133" portrait="0"/>
+	</cmd>
+
+	<cmd endY="420" class="formation" time="2860" delay="70" objCount="1" startY="80" dropCount="1" spacing="150" formation="line" objId="aru_stealthcarrier"/>
+
+	<cmd endY="250" class="formation" time="2895" delay="60" objCount="6" startY="230" dropCount="1" spacing="140" formation="wedge" objId="aru_gunship"/>
+
+	<cmd endY="245" class="formation" time="2915" delay="70" objCount="3" startY="235" dropCount="1" spacing="250" formation="wedge" objId="aru_frigate"/>
+
+	<cmd endY="340" class="formation" time="2950" delay="70" objCount="3" startY="330" dropCount="1" spacing="270" formation="line" objId="aru_skyisland"/>
+
+	<cmd endY="470" class="formation" time="2975" delay="15" objCount="8" startY="15" dropCount="4" spacing="70" formation="column" objId="generic_mine"/>
+
+	<cmd class="formation" time="3025" delay="65" deltaY="200" objCount="5" startY="random" dropCount="1" spacing="120" formation="refuseright" objId="aru_corvette"/>
+
+	<cmd endY="250" class="formation" time="3050" delay="27" objCount="7" startY="230" dropCount="1" spacing="50" formation="wedge" objId="aru_fighter"/>
+
+	<cmd endY="250" class="formation" time="3065" delay="30" objCount="9" startY="230" dropCount="2" spacing="50" formation="wedge" objId="aru_interceptor"/>
+
+	<cmd class="formation" time="3095" delay="30" deltaY="80" objCount="2" startY="random" dropCount="2" spacing="250" formation="line" objId="aru_barge"/>
+
+	<cmd endY="245" class="formation" time="3145" delay="70" objCount="1" startY="235" dropCount="1" spacing="150" formation="column" objId="aru_stealthcarrier"/>
+
+	<cmd class="message" time="3150">
+		<message delay="4" msg="StrId_Story134" portrait="1"/>
+		<message delay="4" msg="StrId_Story135" portrait="1"/>
+		<message delay="4" msg="StrId_Story136" portrait="1"/>
+	</cmd>
+
+	<cmd endY="130" class="formation" time="3155" delay="70" objCount="1" startY="120" dropCount="1" spacing="250" formation="line" objId="aru_frigate"/>
+
+	<cmd endY="250" class="formation" time="3220" delay="27" objCount="11" startY="230" dropCount="1" spacing="50" formation="wedge" objId="aru_fighter"/>
+
+	<cmd endY="250" class="formation" time="3240" delay="30" objCount="13" startY="230" dropCount="1" spacing="50" formation="wedge" objId="aru_interceptor"/>
+
+	<cmd class="message" time="3270">
+		<message delay="3" msg="StrId_Story137" portrait="0"/>
+	</cmd>
+
+	<cmd class="formation" time="3272" delay="65" deltaY="200" objCount="5" startY="random" dropCount="1" spacing="130" formation="wedge" objId="aru_corvette"/>
+
+	<cmd endY="250" class="boss" time="3275" startY="230" objId="aru_destroyer"/>
+
+	<cmd class="message" time="3277">
+		<message delay="3" msg="StrId_Story138" portrait="0"/>
+		<message delay="3" msg="StrId_Story139" portrait="1"/>
+	</cmd>
+
+	<cmd class="checkpoint" time="3286" delay="5" id="9" message="StrId_Story140"/>
+
+	<cmd class="message" time="3291">
+		<message delay="2" msg="StrId_Story141" portrait="4"/>
+		<message delay="2" msg="StrId_Story142" portrait="0"/>
+		<message delay="3" msg="StrId_Story143" portrait="1"/>
+		<message delay="3" msg="StrId_Story144" portrait="1"/>
+	</cmd>
+
+	<cmd endY="250" class="formation" time="3295" delay="27" objCount="1" startY="230" dropCount="1" spacing="50" formation="wedge" objId="corrupted_aru_stealthcarrier"/>
+
+	<cmd endY="250" class="formation" time="3320" delay="27" objCount="1" startY="230" dropCount="1" spacing="50" formation="wedge" objId="corrupted_aru_destroyer"/>
+
+	<cmd class="message" time="3347">
+		<message delay="2" msg="StrId_Story145" portrait="0"/>
+		<message delay="2" msg="StrId_Story146" portrait="1"/>
+		<message delay="3" msg="StrId_Story147" portrait="5"/>
+		<message delay="2" msg="StrId_Story148" portrait="1"/>
+		<message delay="6" msg="StrId_Story149" portrait="6"/>
+		<message delay="8" msg="StrId_Story150" portrait="5"/>
+		<message delay="2" msg="StrId_Story151" portrait="1"/>
+		<message delay="8" msg="StrId_Story152" portrait="6"/>
+		<message delay="8" msg="StrId_Story153" portrait="5"/>
+		<message delay="3" msg="StrId_Story154" portrait="5"/>
+		<message delay="2" msg="StrId_Story155" portrait="1"/>
+		<message delay="8" msg="StrId_Story156" portrait="6"/>
+		<message delay="2" msg="StrId_Story157" portrait="5"/>
+	</cmd>
+
+	<cmd endY="245" class="boss" time="3380" startY="235" objId="boss_planetoid"/>
+
+	<cmd class="message" time="3383">
+		<message delay="5" msg="StrId_Story158" portrait="0"/>
+		<message delay="3" msg="StrId_Story159" portrait="4"/>
+		<message delay="5" msg="StrId_Story160" portrait="0"/>
+		<message delay="5" msg="StrId_Story161" portrait="1"/>
+	</cmd>
+
+	<cmd class="endgame" time="3408" message="StrId_Story162"/>
+
+</campaign>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\hud_button.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="2" y="1" width="2" height="13" info="No info" />
+        <module id="4097" imageid="4096" x="17" y="1" width="2" height="13" info="No info" />
+        <module id="4098" imageid="4096" x="4" y="1" width="13" height="13" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-28" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-26" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-13" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="0" y="-7" flags="0" />
+                <fmodule moduleid="4097" x="26" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="13" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4098" x="-7" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-20" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="6" y="-7" flags="0" />
+                <fmodule moduleid="4097" x="19" y="-7" flags="0" />
+                <fmodule moduleid="4096" x="-22" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-34" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-32" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-19" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="7" y="-7" flags="0" />
+                <fmodule moduleid="4097" x="33" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="20" y="-7" flags="0" />
+                <fmodule moduleid="4098" x="-6" y="-7" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4097" info="">
+            <aframe frameid="4097" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="">
+            <aframe frameid="4098" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

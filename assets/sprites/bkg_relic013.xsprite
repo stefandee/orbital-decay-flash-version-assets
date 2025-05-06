@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="bkg_relic013.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="0" y="26" width="62" height="33" info="No info" />
+        <module id="4097" imageid="4096" x="90" y="0" width="51" height="34" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-69" y="-4" flags="0" />
+                <fmodule moduleid="4097" x="17" y="-29" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

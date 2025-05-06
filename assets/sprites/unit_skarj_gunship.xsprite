@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsprite version="1.0">
+    <images>
+        <image id="4096" file="E:\Home\Karg\Projects\Haxe\OrbitalDecay\data\sprites\game\unit_skarj_gunship.bmp" transparent="16711935" info="No Info" />
+    </images>
+    <modules>
+        <module id="4096" imageid="4096" x="3" y="11" width="29" height="22" info="No info" />
+        <module id="4097" imageid="4096" x="3" y="47" width="66" height="22" info="No info" />
+        <module id="4098" imageid="4096" x="3" y="73" width="65" height="22" info="No info" />
+        <module id="4099" imageid="4096" x="3" y="102" width="61" height="20" info="No info" />
+        <module id="4100" imageid="4096" x="3" y="130" width="69" height="20" info="No info" />
+        <module id="4101" imageid="4096" x="54" y="34" width="16" height="9" info="No info" />
+        <module id="4102" imageid="4096" x="54" y="22" width="16" height="9" info="No info" />
+        <module id="4103" imageid="4096" x="54" y="10" width="16" height="9" info="No info" />
+    </modules>
+    <frames>
+        <frame id="4096" info="">
+            <fmodules>
+                <fmodule moduleid="4096" x="-16" y="-12" flags="0" />
+            </fmodules>
+            <flogics>
+                <flogic id="4096" info="reactor" />
+                <flogic id="4097" info="flame">
+                    <flogicitem id="4096" type="0" x="13" y="-4" />
+                </flogic>
+                <flogic id="4098" info="turret">
+                    <flogicitem id="4096" type="0" x="-2" y="-3" />
+                    <flogicitem id="4097" type="0" x="-8" y="2" />
+                    <flogicitem id="4098" type="0" x="-9" y="-4" />
+                </flogic>
+                <flogic id="4099" info="main weapon" />
+                <flogic id="4100" info="signal lights" />
+            </flogics>
+        </frame>
+        <frame id="4097" info="">
+            <fmodules>
+                <fmodule moduleid="4097" x="-16" y="-12" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4098" info="">
+            <fmodules>
+                <fmodule moduleid="4098" x="-16" y="-12" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4099" info="">
+            <fmodules>
+                <fmodule moduleid="4099" x="-16" y="-10" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4100" info="">
+            <fmodules>
+                <fmodule moduleid="4100" x="-16" y="-10" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4102" info="">
+            <fmodules>
+                <fmodule moduleid="4101" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4103" info="">
+            <fmodules>
+                <fmodule moduleid="4102" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+        <frame id="4104" info="">
+            <fmodules>
+                <fmodule moduleid="4103" x="0" y="0" flags="0" />
+            </fmodules>
+            <flogics />
+        </frame>
+    </frames>
+    <anims>
+        <anim id="4096" info="idle">
+            <aframe frameid="4096" time="1" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4097" info="destroyed">
+            <aframe frameid="4097" time="180" x="0" y="0" flags="0" />
+            <aframe frameid="4098" time="180" x="0" y="0" flags="0" />
+            <aframe frameid="4099" time="180" x="0" y="0" flags="0" />
+            <aframe frameid="4100" time="180" x="0" y="0" flags="0" />
+        </anim>
+        <anim id="4098" info="flame">
+            <aframe frameid="4102" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4103" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4104" time="80" x="0" y="0" flags="0" />
+            <aframe frameid="4103" time="80" x="0" y="0" flags="0" />
+        </anim>
+    </anims>
+</xsprite>

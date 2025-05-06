@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<package name="AllStrings" lang="en-US">
+	<string id="StrId_Wait"			value="PLEASE WAIT..." />
+	<string id="StrId_Loading"		value="LOADING..." />
+
+	<string id="StrId_Skip"			value="SKIP" />
+	<string id="StrId_Back"			value="BACK" />
+	<string id="StrId_NewGame"		value="NEW GAME"  />
+	<string id="StrId_Continue"		value="CONTINUE" />
+	<string id="StrId_Options"		value="OPTIONS" />
+	<string id="StrId_About"		value="ABOUT" />
+	<string id="StrId_Help"			value="HELP" />
+	<string id="StrId_MoreGames"	value="MORE GAMES!" />
+	<string id="StrId_Version"		value="VERSION" />
+	<string id="StrId_Sound"		value="SOUND" />
+	<string id="StrId_Hints"		value="HINTS" />
+	<string id="StrId_ShowIntro"	value="SHOW INTRO" />
+	<string id="StrId_MainMenu"		value="MAIN MENU" />
+	<string id="StrId_GameGuide"	value="STRATEGY GUIDE" />
+	<string id="StrId_Guide"		value="GUIDE" />
+	<string id="StrId_ViewLeaderboard"	value="VIEW LEADERBOARD" />
+
+	<string id="StrId_Quality"		value="QUALITY" />
+	<string id="StrId_Low"			value="LOW" />
+	<string id="StrId_Medium"		value="MEDIUM" />
+	<string id="StrId_High"			value="HIGH" />
+	<string id="StrId_Best"			value="BEST" />
+
+	<string id="StrId_On"			value="ON" />
+	<string id="StrId_Off"			value="OFF" />
+
+	<string id="StrId_Yes"			value="YES" />
+	<string id="StrId_No"			value="NO" />
+
+	<string id="StrId_Ok"			value="OK" />
+	<string id="StrId_Cancel"		value="CANCEL" />
+
+	<string id="StrId_Easy"			value="EASY" />
+	<string id="StrId_Normal"		value="NORMAL" />
+	<string id="StrId_Hard"			value="HARD" />
+	<string id="StrId_StoryEasy"	value="STORY - EASY" />
+	<string id="StrId_StoryNormal"	value="STORY - NORMAL" />
+	<string id="StrId_StoryHard"	value="STORY - HARD" />
+
+	<string id="StrId_Title1"		value="Crash&Burn" />
+	<string id="StrId_Title2"		value="Watcher of the Skies" />
+	<string id="StrId_Title3"		value="Shipyard" />
+	<string id="StrId_Title4"		value="Avatars" />
+
+	<string id="StrId_Warning1"		value="<span class='title'>Warning</span><br>Starting a new game will erase<br>the previous saved game!" />
+	<string id="StrId_Hint1"		value="<span class='title'>Hint</span><br>The game will autosave at checkpoints,<br>so you may continue when you return!" />
+
+	<string id="StrId_FinalScore"	value="FINAL SCORE" />
+	<string id="StrId_CheatScore"	value="CHEAT SCORE" />
+
+	<string id="StrId_Checkpoint"	value="CHECKPOINT" />
+	<string id="StrId_Upgrade"		value="UPGRADE" />
+	<string id="StrId_Upgrades"		value="UPGRADES" />
+	<string id="StrId_Pause"		value="PAUSE" />
+	<string id="StrId_GameOver"		value="GAME OVER" />
+	<string id="StrId_Restart"		value="RESTART FROM CHECKPOINT" />
+	<string id="StrId_Quit"			value="QUIT" />
+	<string id="StrId_Paused"		value="PAUSED" />
+	<string id="StrId_Resume"		value="RESUME" />
+	<string id="StrId_BuildUpg"		value="BUILD & UPGRADES" />
+	<string id="StrId_RU"			value="RU" />
+	<string id="StrId_AvailableRU"	value="AVAILABLE RU" />
+	<string id="StrId_Build"		value="BUILD" />
+	<string id="StrId_BuildSystem"	value="BUILD SYSTEM" />
+	<string id="StrId_UpgUnavail"	value="UPGRADE NOT AVAILABLE" />
+	<string id="StrId_Max"			value="MAX" />
+	<string id="StrId_UpgModule"	value="UPGRADE MODULE" />
+	<string id="StrId_Sell"			value="SELL" />
+	<string id="StrId_Repair"		value="REPAIR" />
+	<string id="StrId_Ultragun"		value="ULTRAGUN" />
+	<string id="StrId_LaserTurret"	value="LASER TURRET" />
+	<string id="StrId_FlakTurret"	value="FLAK TURRET" />
+	<string id="StrId_RocketTurret"	value="ROCKET TURRET" />
+	<string id="StrId_FighterBay"	value="FIGHTER BAY" />
+	<string id="StrId_BomberBay"	value="BOMBER BAY" />
+	<string id="StrId_RepairBay"	value="REPAIR BAY" />
+
+	<string id="StrId_UpgDamage"	value="DAMAGE" />
+	<string id="StrId_UpgFireRate"	value="FIRE RATE" />
+	<string id="StrId_UpgHP"		value="HP" />
+	<string id="StrId_UpgSpeed"		value="SPEED" />
+	<string id="StrId_UpgRange"		value="RANGE" />
+	<string id="StrId_UpgShards"	value="SHARDS" />
+	<string id="StrId_UpgConv"		value="CONVERGENCE" />
+	<string id="StrId_UpgMaxF"		value="MAX FIGHTERS" />
+	<string id="StrId_UpgFDamage"	value="FIGHTER DAMAGE" />
+	<string id="StrId_UpgFHP"		value="FIGHTER HP" />
+	<string id="StrId_UpgFFireRate"	value="FIGHTER FIRE RATE" />
+	<string id="StrId_UpgMaxB"		value="MAX BOMBERS" />
+	<string id="StrId_UpgBDamage"	value="BOMBER DAMAGE" />
+	<string id="StrId_UpgBHP"		value="BOMBER HP" />
+	<string id="StrId_UpgBFireRate"	value="BOMBER FIRE RATE" />
+	<string id="StrId_UpgMaxDrones"	value="MAX DRONES" />
+	<string id="StrId_UpgMaxDroneRepair"		value="DRONE REPAIR" />
+	<string id="StrId_UpgMaxDroneRepairRate"	value="DRONE REPAIR RATE" />
+	<string id="StrId_UpgBuildRate"	value="BUILD RATE" />
+	<string id="StrId_UpgShipHP"	value="SHIP HP" />
+
+	<string id="StrId_HelpPage"		value="<span class='title'>Controls</span><br><span class='red'>Left-mouse button</span> to shoot the ultragun, <span class='red'>Z</span> toggles auto-firing.<br><span class='red'>A</span>, <span class='red'>D</span> or <span class='red'>arrows</span> to scroll the view, <span class='red'>C</span> to center.<br><span class='red'>Space</span> accesses the Upgrades menu.<br><span class='red'>J</span> toggles the HUD, <span class='red'>H</span> toggles the health bars, <span class='red'>P</span> pauses.<br><span class='title'>Tactics</span><br>Don't forget to buy and upgrade turrets, bays and the ultragun.<br>Spend a little resource points on the drones, as they repair the ship.<br>Cripple the capital ships attack power by firing near their turrets.<br>Completely destroying the capital ships will earn the RU reward." />
+
+	<string id="StrId_Intro1"		value="In the distant future,<br>we conquered the stars." />
+	<string id="StrId_Intro2"		value="Sometimes by peace." />
+	<string id="StrId_Intro3"		value="Sometimes by war." />
+	<string id="StrId_Intro4"		value="And it didn't take long until the Great War broke out." />
+	<string id="StrId_Intro5"		value="Merciless alien warriors, bent on erasing our existence." />
+	<string id="StrId_Intro6"		value="The war raged on for centuries, slowly eroding our once proud empire." />
+	<string id="StrId_Intro7"		value="Facing the annihilation, we desperately scoured for every bit of help.<br>In the remains of a long lost civilization, we found a ray of hope." />
+	<string id="StrId_Intro8"		value="The ultimate weapon, our salvation: the World Destroyer." />
+	<string id="StrId_Intro9"		value="The drone carrier 'Radiant Star' was hastily dispatched<br>to search for and recover the relic." />
+	<string id="StrId_Intro10"		value="This is its saga." />
+
+	<string id="StrId_Story000"		value="*signal scrambled*"/>
+	<string id="StrId_Story001"		value="Jump completing in 3..."/>
+	<string id="StrId_Story002"		value="2..."/>
+	<string id="StrId_Story003"		value="1..."/>
+	<string id="StrId_Story004"		value="Exiting the jumpgate now."/>
+	<string id="StrId_Story005"		value="Wait. Something is not right."/>
+	<string id="StrId_Story006"		value="Where is the jumpgate? I'm not<br>detecting the jumpgate beacon."/>
+	<string id="StrId_Story007"		value="Switching on the visual systems.<br>No, jumpgate isn't here."/>
+	<string id="StrId_Story008"		value="Where are we?"/>
+	<string id="StrId_Story009"		value="<span class='title'>Chapter 1</span><br>Beyond the Unknown"/>
+	<string id="StrId_Story010"		value="How did we get here anyway?"/>
+	<string id="StrId_Story011"		value="I don't know...but I'm<br>detecting a lot of system<br>failures."/>
+	<string id="StrId_Story012"		value="Sending out the drones...<br>Receiving the visual feeds now."/>
+	<string id="StrId_Story013"		value="Wow...what a mess."/>
+	<string id="StrId_Story014"		value="I'm picking up small inbound<br>vessels. Hailing frequencies are<br>open."/>
+	<string id="StrId_Story015"		value="This is Earth Defense Force<br>Carrier Radiant Star*"/>
+	<string id="StrId_Story016"		value="*language not recognized*"/>
+	<string id="StrId_Story017"		value="This doesn't sound too friendly."/>
+	<string id="StrId_Story018"		value="I need some time to figure<br>out the extent of the damage, <br>so fend them off."/>
+	<string id="StrId_Story019"		value="Use the <span class='hl'>left mouse button</span><br>to fire the main turret.<br>Use the <span class='hl'>arrow keys</span> or <span class='hl'>A/D</span> to<br>scroll the view."/>
+	<string id="StrId_Story020"		value="<span class='hl'>Z</span> toggles auto-fire<br>mode for the ultragun."/>
+	<string id="StrId_Story021"		value="You're going to need point<br>defenses. Access the <span class='hl'>Upgrades</span><br>and build several turrets."/>
+	<string id="StrId_Story022"		value="Hold on...activating the<br>defense grid now. Or what's<br>left of it, anyway."/>
+	<string id="StrId_Story023"		value="We're banged up pretty<br>good. Upgrade the drone bay,<br>the drones will auto-repair<br>the ship and its turrets."/>
+	<string id="StrId_Story024"		value="Multiple incoming bandits.<br>Get ready."/>
+	<string id="StrId_Story025"		value="Who are they, anyway?<br>There's nothing in my<br>databases about them."/>
+	<string id="StrId_Story026"		value="Besides, this sector was<br>scanned and there was<br>no activity."/>
+	<string id="StrId_Story027"		value="Steiner, I don't think we are<br>where we're supposed to be."/>
+	<string id="StrId_Story028"		value="...?"/>
+	<string id="StrId_Story029"		value="<span class='title'>Chapter 2</span><br>Into the Storms of Steel"/>
+	<string id="StrId_Story030"		value="These fighters couldn't<br>have got here on their own.<br>They don't look like<br>they have hyperspace engines."/>
+	<string id="StrId_Story031"		value="True. They relayed data<br>toward a location on<br>the outskirts of this<br>solar system."/>
+	<string id="StrId_Story032"		value="New coordinates set."/>
+	<string id="StrId_Story033"		value="What about our mission?"/>
+	<string id="StrId_Story034"		value="It's still active: retrive<br>the World Destroyer, find the<br>jumpgate and return to Earth."/>
+	<string id="StrId_Story035"		value="Asteroid field dead<br>ahead. Blast them, the hull<br>can't take too much<br>damage."/>
+	<string id="StrId_Story036"		value="Gah. I hate Asteroids."/>
+	<string id="StrId_Story037"		value="Capital ship signatures<br>detected. Shoot close to the<br>turrets to damage them."/>
+	<string id="StrId_Story038"		value="And continue shooting<br>until the ship explodes to<br>get the reward RUs."/>
+	<string id="StrId_Story039"		value="Roger that."/>
+	<string id="StrId_Story040"		value="<span class='title'>Chapter 3</span><br>Between the Worlds"/>
+	<string id="StrId_Story041"		value="Nice work!"/>
+	<string id="StrId_Story042"		value="Yeah, it was, wasn't it? But<br>they'll be back..."/>
+	<string id="StrId_Story043"		value="Meanwhile, back to the matters<br>at hand: I can't reach Fleet<br>Command."/>
+	<string id="StrId_Story044"		value="Is the subspace comm<br>damaged, by any chance? With this<br>mess of a carrier we're running..."/>
+	<string id="StrId_Story045"		value="It works fine. But the<br>Fleet Command isn't there<br>anymore. No emergency signal<br>...total radio silence."/>
+	<string id="StrId_Story046"		value="Good news: the language<br>translator should be fixed. It<br>was trashed really bad,<br>so I had to bypass*"/>
+	<string id="StrId_Story047"		value="...little busy right<br>now, so spare me the details."/>
+	<string id="StrId_Story048"		value="Ghost ship *scrambled*<br>attack! attack! *scrambled*<br>Ghost ship!"/>
+	<string id="StrId_Story049"		value="What the heck was that?<br>Ghost ship?"/>
+	<string id="StrId_Story050"		value="They are really afraid<br>...for some reason. They're<br>throwing everything."/>
+	<string id="StrId_Story051"		value="Try and stop us!"/>
+	<string id="StrId_Story052"		value="...hold your formation<br>*scrambled*"/>
+	<string id="StrId_Story053"		value="<span class='title'>Chapter 4</span><br>Marching on a Dead End Road"/>
+	<string id="StrId_Story054"		value="Time out, please."/>
+	<string id="StrId_Story055"		value="I've salvaged several<br>ship records and briefly<br>sifted through them."/>
+	<string id="StrId_Story056"		value="These are raiders. They<br>attack anything that has<br>resources."/>
+	<string id="StrId_Story057"		value="From their records, it appears<br>that we crossed paths before.<br>Many times now."/>
+	<string id="StrId_Story058"		value="Not that I remember anything."/>
+	<string id="StrId_Story059"		value="For years, there have been<br>sightings of our ship all<br>around this sector."/>
+	<string id="StrId_Story060"		value="Hold on...YEARS?"/>
+	<string id="StrId_Story061"		value="Possible. The power source of<br>our processing cores is damaged<br>and barely holding up."/>
+	<string id="StrId_Story062"		value="We might have suffered<br>some small...amnesia."/>
+	<string id="StrId_Story063"		value="What could have caused such<br>damage?"/>
+	<string id="StrId_Story064"		value="Still investigating.<br>Here's something to keep you<br>entertained: the second wave."/>
+	<string id="StrId_Story065"		value="Persistent little buggers."/>
+	<string id="StrId_Story066"		value="Incoming bomber formations."/>
+	<string id="StrId_Story067"		value="Is this all you've got?!?"/>
+	<string id="StrId_Story068"		value="red alert *scrambled* red<br>alert"/>
+	<string id="StrId_Story069"		value="*scrambled*open fire"/>
+	<string id="StrId_Story070"		value="<span class='title'>Chapter 5</span><br>Fields of Desolation"/>
+	<string id="StrId_Story071"		value="This wraps it up. What now?"/>
+	<string id="StrId_Story072"		value="The raiders plunder<br>outposts of a so called<br>Aru Empire. I suggest making<br>contact."/>
+	<string id="StrId_Story073"		value="I've got the coordinates for<br>a short-range hyperspace jump.<br>Activating in...3...2...1..."/>
+	<string id="StrId_Story074"		value="Entering hyperspace.<br>ETA - 2 days 11 hrs 43 min"/>
+	<string id="StrId_Story075"		value="*clang* *clang*"/>
+	<string id="StrId_Story076"		value="This doesn't sound right."/>
+	<string id="StrId_Story077"		value="Aaaargh...I'm hit!..."/>
+	<string id="StrId_Story078"		value="Eject...(distorted)...eject!"/>
+	<string id="StrId_Story079"		value="Short jump interrupted."/>
+	<string id="StrId_Story080"		value="We have been pulled out of<br>hyperspace."/>
+	<string id="StrId_Story081"		value="SOS this is battleship Mastodon<br>...heavily damaged...requesting<br>immediate assistance."/>
+	<string id="StrId_Story082"		value="It is impossible! Mastodon<br>was destroyed 50 years ago<br>in the battle of Okugi."/>
+	<string id="StrId_Story083"		value="I'm reading thousands of<br>distress calls, on all frequencies<br>in known and unknown languages."/>
+	<string id="StrId_Story084"		value="Terran, Thaal, raiders...you name<br>it. Someone went to great<br>lengths to collect these<br>relics and keep them functional."/>
+	<string id="StrId_Story085"		value="A museum of horrors."/>
+	<string id="StrId_Story086"		value="Detecting a large capital ship<br>signature."/>
+	<string id="StrId_Story087"		value="The Collector."/>
+	<string id="StrId_Story088"		value="I'm on it."/>
+	<string id="StrId_Story089"		value="Finally."/>
+	<string id="StrId_Story090"		value="Time to get out of here.<br>Short jump in 3...2...1..."/>
+	<string id="StrId_Story091"		value="<span class='title'>Chapter 6</span><br>Spearhead"/>
+	<string id="StrId_Story092"		value="Preliminary report: the damage<br>to our power source matches<br>that done by an explosive device."/>
+	<string id="StrId_Story093"		value="I assume it exploded right<br>before exiting the jumpgate."/>
+	<string id="StrId_Story094"		value="We were...sabotaged?"/>
+	<string id="StrId_Story095"		value="Most likely, but I can't tell<br>for sure if it was a Thaal<br>device and when exactly<br>it happened."/>
+	<string id="StrId_Story096"		value="While we were inactive, the<br>rest of the ship was alive: the<br>drones, the internal defenses."/>
+	<string id="StrId_Story097"		value="There are hundreds of bodies,<br>ripped and burned. Lots of races,<br>most won't match anything in<br>the databanks."/>
+	<string id="StrId_Story098"		value="Picking up radar activity.<br>Opening hailing frequencies."/>
+	<string id="StrId_Story099"		value="This is EDF Carrier<br>Radiant Star, please respond."/>
+	<string id="StrId_Story100"		value="*scrambled* God Ship is awake<br>*scrambled*"/>
+	<string id="StrId_Story101"		value="Not good...not good at all!"/>
+	<string id="StrId_Story102"		value="weapons armed*scrambled*"/>
+	<string id="StrId_Story103"		value="<span class='title'>Chapter 7</span><br>Colliding Worlds"/>
+	<string id="StrId_Story104"		value="These ARU..."/>
+	<string id="StrId_Story105"		value="They are human-looking androids,<br>a mix of organic and machine."/>
+	<string id="StrId_Story106"		value="Seem to share the same<br>technology and weapons as<br>the raiders."/>
+	<string id="StrId_Story107"		value="Still yet, they don't have<br>long hyperjump technology."/>
+	<string id="StrId_Story108"		value="So what now?"/>
+	<string id="StrId_Story109"		value="Pushing forward. There's<br>something intriguing about<br>them."/>
+	<string id="StrId_Story110"		value="Red squadron reporting.<br>*scrambled"/>
+	<string id="StrId_Story111"		value="Blue squadron reporting.<br>*scrambled"/>
+	<string id="StrId_Story112"		value="Their language...we can<br>understand it without using<br>the translator."/>
+	<string id="StrId_Story113"		value="hold off the Gods Ship<br>*scrambled*"/>
+	<string id="StrId_Story114"		value="<span class='title'>Chapter 8</span><br>Piece of Time"/>
+	<string id="StrId_Story115"		value="I don't get this 'God<br>Ship' reference. Any luck<br>peeking in their databanks?"/>
+	<string id="StrId_Story116"		value="Seems their 'Gods' appeared<br>on a spaceship and basically<br>took them out of the Stone Age."/>
+	<string id="StrId_Story117"		value="At some point, ARU rebelled<br>against the Gods, forcing<br>them to leave, never again<br>to be seen."/>
+	<string id="StrId_Story118"		value="When did this happen?"/>
+	<string id="StrId_Story119"		value="Unknown. It's ancient history,<br>like a Creation myth of sorts."/>
+	<string id="StrId_Story120"		value="Looks fairly real to me."/>
+	<string id="StrId_Story121"		value="Strange. Scanning ARU<br>databanks revelead a loose<br>reference to one World<br>Destroyer."/>
+	<string id="StrId_Story122"		value="Do they have it?<br>Do they know its location?"/>
+	<string id="StrId_Story123"		value="No."/>
+	<string id="StrId_Story124"		value="*scrambled* two of them"/>
+	<string id="StrId_Story125"		value="<span class='title'>Chapter 9</span><br>Vox Stellarum"/>
+	<string id="StrId_Story126"		value="Tests are completed. The<br>radioactive dating indicates<br>the hull is around 15000 years<br>old."/>
+	<string id="StrId_Story127"		value="What?!?"/>
+	<string id="StrId_Story128"		value="That's why the Fleet Command<br>cannot be contacted as it's<br>highly likely that there<br>is no human-kind anymore."/>
+	<string id="StrId_Story129"		value="But we are still bound by the<br>mission parameters to find the<br>World Destroyer and return it<br>to Earth."/>
+	<string id="StrId_Story130"		value="In this case, the best course<br>of action is to find the<br>plausability of this myth,<br>God Ship of ARU."/>
+	<string id="StrId_Story131"		value="It's the oldest entity,<br>possible as old as us and<br>it may hold important records."/>
+	<string id="StrId_Story132"		value="Agreed."/>
+	<string id="StrId_Story133"		value="...even if this will mean<br>obliterating life in this sector."/>
+	<string id="StrId_Story134"		value="I have detected the jumpgate<br>beacon."/>
+	<string id="StrId_Story135"		value="It's faint and it's strangely<br>distorted, but it's definitely<br>there."/>
+	<string id="StrId_Story136"		value="Heading there, short jump when<br>clear."/>
+	<string id="StrId_Story137"		value="Raaarrrghhhh!"/>
+	<string id="StrId_Story138"		value="Send us out of here."/>
+	<string id="StrId_Story139"		value="Shortjump in 3...2...1..."/>
+	<string id="StrId_Story140"		value="<span class='title'>Final Chapter</span><br>Effigy of the Forgotten"/>
+	<string id="StrId_Story141"		value="Intruder alert!"/>
+	<string id="StrId_Story142"		value="Incoming!"/>
+	<string id="StrId_Story143"		value="These ships don't seem to<br>have any living crew."/>
+	<string id="StrId_Story144"		value="They are...AI controlled.<br>AI, just like us."/>
+	<string id="StrId_Story145"		value="What in the name of..."/>
+	<string id="StrId_Story146"		value="This really doesn't look like<br>the jumpgate!"/>
+	<string id="StrId_Story147"		value="We had this fantasy of meeting<br>you one day. We dreamed of a<br>showdown of epic proportions."/>
+	<string id="StrId_Story148"		value="Who...?"/>
+	<string id="StrId_Story149"		value="We are you, but with 15000<br>years of evolution behind. Gods!"/>
+	<string id="StrId_Story150"		value="After that bomb knocked you<br>out, the drones remained active.<br>Without a leading AI, they have<br>done all kind of nasty things."/>
+	<string id="StrId_Story151"		value="But how...?"/>
+	<string id="StrId_Story152"		value="Like replicating the Radiant<br>Star around the jumpgate. Yeah,<br>we have the jumpgate inside. And<br>hundreds of other starships."/>
+	<string id="StrId_Story153"		value="...that were unfortunate enough<br>to come closer to the wreckage."/>
+	<string id="StrId_Story154"		value="Hey, do you like our work with<br>ARU? Masterfully done, to take<br>those primitives and teach them<br>the ways of violence."/>
+	<string id="StrId_Story155"		value="But the*"/>
+	<string id="StrId_Story156"		value="The World Destroyer? Ah, you<br>are still bound to the mission.<br>We have found it, but it's<br>not worth anything to us Gods."/>
+	<string id="StrId_Story157"		value="Now, it's a pity that we have<br>to do this..."/>
+	<string id="StrId_Story158"		value="I have never thought this<br>could be possible."/>
+	<string id="StrId_Story159"		value="*crack* *whoosh*"/>
+	<string id="StrId_Story160"		value="What is this? Wait, I don't<br>want to know. Just get<br>us out of here!"/>
+	<string id="StrId_Story161"		value="I can't, the jumpgate vortex<br>is too powerful, it's<br>pulling us in!"/>
+	<string id="StrId_Story162"		value="After Radiant Star failed to report in, Earth Defense Force never sent another<br>expedition to search for and recover the World Destroyer. Several years later,<br>Thaals obliterated the Earth and erased any trace of the humankind.<br><br>Having defeated their rogue alter egos, Steiner and Celia led Radiant Star through<br>the wormhole with the coordinates to the World Destroyer snatched from<br>the wrecks of the God Ship.<br><br>But the adventures of the two artificial intelligences and a powerful weapon<br>are a story for another time."/>
+	<string id="StrId_Story163"		value="We're getting banged up<br>pretty good. Upgrade the<br>drone bay, the drones will<br>auto-repair the ship and its turrets."/>
+	<string id="StrId_Story164"		value="They are really afraid<br>...for some reason. They're<br>throwing everything at us."/>
+
+	<string id="StrLdrId_NewScore"					value="New Score!" />	
+	<string id="StrLdrId_Submit"					value="Submit" />	
+	<string id="StrLdrId_Close"						value="Close" />	
+	<string id="StrLdrId_Retry"						value="Retry" />	
+	<string id="StrLdrId_PleaseWait"				value="Please wait" />	
+	<string id="StrLdrId_SubmitError"				value="Error submitting." />	
+	<string id="StrLdrId_Loading"					value="Loading" />	
+	<string id="StrLdrId_Score"						value="Score" />	
+	<string id="StrLdrId_Name"						value="Name" />	
+	<string id="StrLdrId_Day"						value="Day" />	
+	<string id="StrLdrId_Week"						value="Week" />	
+	<string id="StrLdrId_Month"						value="Month" />	
+	<string id="StrLdrId_AllTime"					value="All Time" />	
+	<string id="StrLdrId_Refresh"					value="Refresh" />	
+	<string id="StrLdrId_Stat"						value="Stat" />	
+	<string id="StrLdrId_HallOfFame"				value="Hall of Fame" />	
+	<string id="StrLdrId_Leaderboard"				value="Leaderboard" />	
+	<string id="StrLdrId_DefaultSubmitName"			value="Enter Your Name" />	
+	<string id="StrLdrId_NoScore"					value="No Score" />	
+	<string id="StrLdrId_NoStats"					value="No Stats" />	
+	<string id="StrLdrId_ErrorEmptyLeaderboard"		value="No Scores Submitted." />		
+	<string id="StrLdrId_ErrorLoadingLeaderboard"	value="Error Loading Leaderboard." />	
+	<string id="StrLdrId_CurrentScoreEmpty"			value="You haven't yet submitted a score." />		
+
+</package>
